@@ -101,7 +101,7 @@ def cabecalho(lang, atual, base):
         idioma = f'<span class="idioma"><a href="{base}index.html" aria-current="true">PT</a> <span aria-hidden="true">/</span> <a href="{base}en/index.html">EN</a></span>'
     else:
         troca = "../index.html"
-        idioma = f'<span class="idioma"><a href="{base}../index.html">PT</a> <span aria-hidden="true">/</span> <a href="{base}index.html" aria-current="true">EN</a></span>'
+        idioma = '<span class="idioma"><a href="../index.html">PT</a> <span aria-hidden="true">/</span> <a href="index.html" aria-current="true">EN</a></span>'
 
     links = "\n".join(
         f'        <li><a href="{href}"'
