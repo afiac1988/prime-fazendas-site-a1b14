@@ -1,12 +1,35 @@
 {
-  "_leia_me": "Manchetes do mercado, atualizadas sozinhas todo dia pelo robô do GitHub. São remissões: título, veículo e link para a publicação original. O texto editorial da Prime fica em articles.json.",
-  "atualizado_em": "2026-08-12T00:43:02+00:00",
+  "_leia_me": "Manchetes do mercado, atualizadas sozinhas todo dia. São remissões: título, veículo e link para a publicação original. O texto editorial da Prime fica em articles.json. Para trocar as fontes, edite data/noticias-fontes.json.",
+  "atualizado_em": "2026-08-12T11:24:58-03:00",
+  "fontes_que_falharam": [
+    "Notícias Agrícolas",
+    "Globo Rural",
+    "Embrapa"
+  ],
   "noticias": [
     {
-      "titulo": "Exemplo de manchete — o robô substitui na primeira execução",
-      "url": "https://www.canalrural.com.br/",
-      "fonte": "Canal Rural",
-      "data": "2026-08-12"
+      "titulo": "STF julga ações sobre a Moratória da Soja; Aprosoja MT comenta impacto para produtores",
+      "url": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/stf-julga-acoes-sobre-a-moratoria-da-soja-aprosoja-mt-comenta-impacto-para-produtores/",
+      "data": "2026-08-12",
+      "fonte": "Canal Rural"
+    },
+    {
+      "titulo": "PNL 2050 projeta R$ 1,225 trilhão em investimentos em logística até 2050",
+      "url": "https://www.canalrural.com.br/economia/pnl-2050-projeta-r-1225-trilhao-em-investimentos-em-logistica-ate-2050/",
+      "data": "2026-08-12",
+      "fonte": "Canal Rural"
+    },
+    {
+      "titulo": "Lucro ajustado da Adecoagro sobe 170% no segundo trimestre de 2026",
+      "url": "https://www.canalrural.com.br/economia/lucro-ajustado-da-adecoagro-sobe-170-no-segundo-trimestre-de-2026/",
+      "data": "2026-08-12",
+      "fonte": "Canal Rural"
+    },
+    {
+      "titulo": "Fertilizantes na soja: onde está o ganho de eficiência? Especialista da Yara Brasil explica",
+      "url": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/fertilizantes-na-soja-onde-esta-o-ganho-de-eficiencia-especialista-da-yara-brasil-explica/",
+      "data": "2026-08-12",
+      "fonte": "Canal Rural"
     }
   ]
 }
