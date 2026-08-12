@@ -1,0 +1,115 @@
+{
+  "_leia_me": "RASCUNHO — o site NÃO lê este arquivo. É uma lista de candidatos a entrar na Agenda Agro, levantada por pesquisa em sites oficiais. Confira a data no link em '_fonte' antes de mover o evento para data/events.json. Ao mover, apague os campos que começam com '_'.",
+  "levantado_em": "2026-08-12",
+  "candidatos": [
+    {
+      "nome": "Expointer",
+      "inicio": "2026-08-29",
+      "fim": "2026-09-06",
+      "cidade": "Esteio",
+      "estado": "RS",
+      "segmento": "Agropecuária",
+      "url": "https://www.expointer.rs.gov.br/inicial",
+      "_fonte": "https://www.expointer.rs.gov.br/data-e-horario"
+    },
+    {
+      "nome": "15º Congresso Brasileiro do Algodão",
+      "inicio": "2026-09-22",
+      "fim": "2026-09-24",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "segmento": "Algodão",
+      "url": "https://congressodoalgodao.com.br/",
+      "_fonte": "https://congressodoalgodao.com.br/"
+    },
+    {
+      "nome": "Show Rural Coopavel",
+      "inicio": "2027-02-01",
+      "fim": "2027-02-05",
+      "cidade": "Cascavel",
+      "estado": "PR",
+      "segmento": "Agronegócio",
+      "url": "https://showrural.com.br/",
+      "_fonte": "https://showrural.com.br/"
+    },
+    {
+      "nome": "27ª Expodireto Cotrijal",
+      "inicio": "2027-03-08",
+      "fim": "2027-03-12",
+      "cidade": "Não-Me-Toque",
+      "estado": "RS",
+      "segmento": "Agronegócio",
+      "url": "https://www.expodireto.cotrijal.com.br/",
+      "_fonte": "https://www.expodireto.cotrijal.com.br/imprensa"
+    },
+    {
+      "nome": "Show Safra BR-163",
+      "inicio": "2027-03-22",
+      "fim": "2027-03-25",
+      "cidade": "Lucas do Rio Verde",
+      "estado": "MT",
+      "segmento": "Agronegócio",
+      "url": "https://showsafra.com.br/",
+      "_fonte": "https://showsafra.com.br/"
+    },
+    {
+      "nome": "Farm Show",
+      "inicio": "2027-03-30",
+      "fim": "2027-04-02",
+      "cidade": "Primavera do Leste",
+      "estado": "MT",
+      "segmento": "Agronegócio",
+      "url": "https://farmshow.com.br/",
+      "_fonte": "https://farmshow.com.br/farm-show-mato-grosso-2027-anuncia-nova-data-feira-sera-realizada-de-30-de-marco-a-2-de-abril/"
+    },
+    {
+      "nome": "Tecnoshow COMIGO",
+      "inicio": "2027-04-05",
+      "fim": "2027-04-09",
+      "cidade": "Rio Verde",
+      "estado": "GO",
+      "segmento": "Agronegócio",
+      "url": "https://tecnoshowcomigo.com.br/",
+      "_fonte": "https://tecnoshowcomigo.com.br/"
+    },
+    {
+      "nome": "Agrishow",
+      "inicio": "2027-04-26",
+      "fim": "2027-04-30",
+      "cidade": "Ribeirão Preto",
+      "estado": "SP",
+      "segmento": "Agronegócio",
+      "url": "https://www.agrishow.com.br/",
+      "_fonte": "https://www.agrishow.com.br/"
+    },
+    {
+      "nome": "AgroBrasília",
+      "inicio": "2027-05-18",
+      "fim": "2027-05-21",
+      "cidade": "Brasília",
+      "estado": "DF",
+      "segmento": "Agronegócio",
+      "url": "https://agrobrasilia.com.br/",
+      "_fonte": "https://agrobrasilia.com.br/"
+    },
+    {
+      "nome": "Bahia Farm Show",
+      "inicio": "2027-06-07",
+      "fim": "2027-06-12",
+      "cidade": "Luís Eduardo Magalhães",
+      "estado": "BA",
+      "segmento": "Agronegócio",
+      "prime": true,
+      "url": "https://bahiafarmshow.com.br/",
+      "_fonte": "https://bahiafarmshow.com.br/noticias/bahia-farm-show-encerra-com-balanco-positivo-e-anuncia-data-da-proxima-edicao/"
+    }
+  ],
+  "_sem_data_confirmada": [
+    "Agrotins (Palmas/TO) — edição 2027 sem data no portal oficial",
+    "AgroBalsas (Balsas/MA) — site só mostra 2026",
+    "ExpoSoja Uruçuí (PI) — site só mostra a edição de maio/2026",
+    "Fenagro (Salvador/BA) — site oficial ainda na edição de 2025",
+    "Bahia Cotton / Cotton Expo — ABAPA não publicou calendário 2027",
+    "Expoagro Afubra, Expoingá, Coopercitrus Expo, Norte Show, Rondônia Rural Show"
+  ]
+}
