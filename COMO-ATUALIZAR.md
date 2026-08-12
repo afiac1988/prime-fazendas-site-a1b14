@@ -67,6 +67,14 @@ Edite **`data/events.json`**:
 `"prime": true` marca os eventos em que a Prime estará presente. **Evento que já
 passou some sozinho** — não precisa limpar nada.
 
+Enquanto `events.json` estiver vazio, a página avisa que a agenda está em
+montagem. Isso é proposital: melhor uma agenda vazia do que uma data errada.
+
+Há um ponto de partida pronto em **`data/events-rascunho.json`** — dez feiras
+com data e link oficial já levantados. O site não lê esse arquivo. Confira a
+data no link `_fonte` de cada uma e, ao confirmar, copie o evento para
+`events.json` apagando os campos que começam com `_`.
+
 ---
 
 ## Trocar telefone, e-mail, CRECI, Instagram
