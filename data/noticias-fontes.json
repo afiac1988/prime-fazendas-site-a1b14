@@ -1,0 +1,9 @@
+{
+  "_leia_me": "Fontes do 'Últimas do mercado'. Para acrescentar um veículo, copie um bloco e coloque o nome e o endereço do RSS. Para tirar, apague o bloco. O robô roda todo dia às 9h e ignora fonte que estiver fora do ar.",
+  "fontes": [
+    { "nome": "Notícias Agrícolas", "url": "https://www.noticiasagricolas.com.br/rss/noticias/graos.xml" },
+    { "nome": "Canal Rural", "url": "https://www.canalrural.com.br/feed/" },
+    { "nome": "Globo Rural", "url": "https://revistagloborural.globo.com/rss/ultimas/feed.xml" },
+    { "nome": "Embrapa", "url": "https://www.embrapa.br/rss/-/asset_publisher/noticias/rss" }
+  ]
+}

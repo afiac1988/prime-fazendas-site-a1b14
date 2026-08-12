@@ -1,0 +1,32 @@
+{
+  "slug": "perola-do-norte",
+  "codigo": "",
+  "nome": "Fazenda Pérola do Norte",
+  "regiao_texto": "REGIÃO NORTE",
+  "estado": "",
+  "municipio": "",
+  "area_total_texto": "2.082 hectares (430,17 alqueires)",
+  "area_ha": 2082,
+  "area_aberta_texto": "",
+  "aptidao": "Pecuária",
+  "infraestrutura": "Casa funcionários, curral completo e piscicultura",
+  "logistica": "80 km de Araguaína",
+  "recurso_hidrico": "",
+  "valor_texto": "R$ 15.056.000,00",
+  "valor": 15056000,
+  "opcional": "",
+  "descricao_blocos": [
+    "Fazenda com 2.082 hectares localizada a 80 km de Araguaína, ideal para pecuária com abundância de juquira e topografia leve ondulada.",
+    "Terra mista/arenosa com índice pluviométrico entre 1.800 e 2.000 mm/ano, ótima disponibilidade de água e estrutura completa com casa de funcionários, curral e piscicultura.",
+    "Propriedade preparada para produção pecuária com casa curral completa, área extensa e excelente infraestrutura para manejo e criação."
+  ],
+  "contatos_no_documento": {
+    "telefone": "(63) 98143-7860",
+    "whatsapp": "",
+    "instagram": "@prime_fazendas",
+    "site": "primefazendas.com",
+    "email": "contato@primefazendas.com",
+    "creci": ""
+  },
+  "observacoes": "O documento não informa estado nem município (apenas \"REGIÃO NORTE\"); Araguaína aparece só como referência de distância na logística. Não há código do imóvel nem CRECI no rodapé. Não há campo de recursos hídricos na ficha técnica: o documento cita apenas \"ótima disponibilidade de água\" e piscicultura nos blocos de descrição, por isso recurso_hidrico ficou vazio. Dados da ficha técnica sem campo correspondente no formato: Relevo \"Terra mista/arenosa, levemente ondulada\" e Índice pluviométrico \"1800 a 2.000 mm/ano\". As 3 fotos são fotografias (lavoura com colheitadeira, curral coberto e gado a pasto); nenhuma é o brasão da Prime. As fotos 2 e 3 são de baixa resolução no PDF original (466x305 e 457x300 px), abaixo da largura usada nas demais fazendas. ATENÇÃO: a foto 1 (e portanto a versão -card) é a MESMA imagem em 22 das 23 fazendas já importadas (md5 80bb2047ca3e7f7dbeb5c5dd0e3378ce): uma colheitadeira verde num campo de trigo, imagem de banco usada na capa do modelo de one-pager da Prime — não é foto da propriedade. Ela não é o brasão, então passa no critério do importador, mas não deve ser usada como foto de capa da fazenda."
+}

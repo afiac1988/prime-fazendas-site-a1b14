@@ -1,0 +1,32 @@
+{
+  "slug": "opala-do-norte",
+  "codigo": "",
+  "nome": "Fazenda Opala do Norte",
+  "regiao_texto": "REGIÃO NORTE",
+  "estado": "",
+  "municipio": "",
+  "area_total_texto": "12.000 hectares (2.479 alqueires)",
+  "area_ha": 12000,
+  "area_aberta_texto": "5.800 hectares abertos, sendo 4.800 em pastagem e 1.000 em lavoura, e mais 700ha prontos para abrir",
+  "aptidao": "Lavoura e Pecuária",
+  "infraestrutura": "12 casas, posto de combustível, barracão, silo, fábrica de ração, lava jato e silo",
+  "logistica": "34km de Colinas, 100km de Araguaína e 1 km do asfalto",
+  "recurso_hidrico": "5 reservatórios de água",
+  "valor_texto": "R$ 161.135.000,00",
+  "valor": 161135000,
+  "opcional": "",
+  "descricao_blocos": [
+    "A propriedade possui 5.800 hectares abertos, sendo 4.800 em pastagem, 1.000ha em lavoura e tem mais 700ha pronto para abrir",
+    "Uma excelente estrutura para pecuária, contando com 220 divisões de pastos, todos corrigidos com 5ton de calcário e fosfatados, atualmente com 7.000 cabeças, mas com capacidade para 10.000 cabeças de gados.",
+    "Solo misto arenoso, com 5 reservatórios de água, com capacidade para montar pivô"
+  ],
+  "contatos_no_documento": {
+    "telefone": "(63) 98143-7860",
+    "whatsapp": "",
+    "instagram": "@prime_fazendas",
+    "site": "primefazendas.com",
+    "email": "contato@primefazendas.com",
+    "creci": "037900-J"
+  },
+  "observacoes": "O documento não informa estado nem município; o cabeçalho traz apenas \"REGIÃO NORTE\", que não identifica a UF sem ambiguidade. As cidades citadas (Colinas e Araguaína) aparecem somente como referência de distância na logística, não como município da fazenda. O documento não traz código do imóvel. O telefone aparece sob o rótulo \"CONSULTORIA\", sem indicação explícita de WhatsApp. As 3 fotos gravadas são fotografias (lavoura com colheitadeira, pastagem e vista aérea); nenhuma é o brasão da Prime. ATENÇÃO: a foto 1 (e portanto a versão -card) é a MESMA imagem em 22 das 23 fazendas já importadas (md5 80bb2047ca3e7f7dbeb5c5dd0e3378ce): uma colheitadeira verde num campo de trigo, imagem de banco usada na capa do modelo de one-pager da Prime — não é foto da propriedade. Ela não é o brasão, então passa no critério do importador, mas não deve ser usada como foto de capa da fazenda."
+}

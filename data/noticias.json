@@ -1,0 +1,12 @@
+{
+  "_leia_me": "Manchetes do mercado, atualizadas sozinhas todo dia pelo robô do GitHub. São remissões: título, veículo e link para a publicação original. O texto editorial da Prime fica em articles.json.",
+  "atualizado_em": "2026-08-12T00:43:02+00:00",
+  "noticias": [
+    {
+      "titulo": "Exemplo de manchete — o robô substitui na primeira execução",
+      "url": "https://www.canalrural.com.br/",
+      "fonte": "Canal Rural",
+      "data": "2026-08-12"
+    }
+  ]
+}

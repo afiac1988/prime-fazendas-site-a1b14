@@ -1,0 +1,32 @@
+{
+  "slug": "agata-do-fogo",
+  "codigo": "34",
+  "nome": "Fazenda Ágata do Fogo",
+  "regiao_texto": "REGIÃO CENTRAL",
+  "estado": "",
+  "municipio": "",
+  "area_total_texto": "2.090 hectares",
+  "area_ha": 2090,
+  "area_aberta_texto": "Área de plantio: 1.000 hectares",
+  "aptidao": "Lavoura e Pecuária",
+  "infraestrutura": "Sede e galpão p/ máquinas",
+  "logistica": "15 km de Divinópolis, beira de asfalto",
+  "recurso_hidrico": "",
+  "valor_texto": "R$ 55 milhões",
+  "valor": 55000000,
+  "opcional": "",
+  "descricao_blocos": [
+    "Propriedade com grande produtividade, plantando 1000 hectares",
+    "Localização estratégica, beira de asfalto",
+    "Estrutura excelente"
+  ],
+  "contatos_no_documento": {
+    "telefone": "(63) 98143-7860",
+    "whatsapp": "",
+    "instagram": "@prime_fazendas",
+    "site": "primefazendas.com",
+    "email": "contato@primefazendas.com",
+    "creci": ""
+  },
+  "observacoes": "O documento não informa estado nem município: a região aparece só como 'REGIÃO CENTRAL', então 'estado' ficou vazio. A logística cita '15 km de Divinópolis', que é ambíguo (Divinópolis-MG e Divinópolis do Tocantins-TO), por isso não foi usado para deduzir UF nem município. O código '34' não aparece no corpo do PDF — vem do nome do arquivo no Drive ('Prime Fazendas - Fazenda Ágata do fogo - 2.090ha - cód. 34.pdf'). Não há informação de recurso hídrico. O documento traz ainda, sem campo próprio na ficha: 'Topografia: levemente ondulada com aproveitamento de 65% e solo argiloso com casacalho chumbinho, argila acima de 50%' (o PDF escreve 'casacalho', provável erro de digitação de 'cascalho') e 'Índice pluvimétrico: 1800 a 2200mm' (o PDF escreve 'pluvimétrico'). Os três blocos de descrição da página 2 são muito curtos, um deles com apenas duas palavras ('Estrutura excelente'). Sem CRECI e sem WhatsApp no rodapé. 3 fotos gravadas, nenhuma é o brasão — a nº 1 é a mesma foto genérica de capa (colheitadeira) usada nos outros PDFs da Prime; as nº 2 e 3 são fotos da propriedade."
+}

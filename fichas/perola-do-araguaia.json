@@ -1,0 +1,24 @@
+{
+  "slug": "perola-do-araguaia",
+  "codigo": "",
+  "nome": "Fazenda Pérola do Araguaia",
+  "regiao_texto": "Região Sudeste do Pará",
+  "estado": "PA",
+  "municipio": "",
+  "area_total_texto": "10.164 hectares",
+  "area_ha": 10164,
+  "area_aberta_texto": "5.663 hectares",
+  "aptidao": "Pecuária",
+  "infraestrutura": "Casa sede, 3 retiros e 148 divisões de pasto",
+  "logistica": "160 km de Marabá (110 km de asfalto e 50 km por estrada de terra) e 145 km de Araguaína",
+  "recurso_hidrico": "12 km de margem no rio Araguaia",
+  "valor_texto": "R$ 142.296.000,00",
+  "valor": 142296000,
+  "opcional": "Aproximadamente 6.000 cabeças de gado (4.000 adultos e 2.000 bezerros e novilhas), 3 tratores de pneu e 2 de esteiras — a negociar",
+  "descricao_blocos": [
+    "Propriedade margeada pelo Rio Araguaia (12 km de margem), com área aberta de 5.663 hectares voltadas para pecuária",
+    "Estrutura excelente, contando com uma sede, 3 retiros e 148 divisões de pastos"
+  ],
+  "contatos_no_documento": {"telefone":"(63) 98143-7860","whatsapp":"","instagram":"@prime_fazendas","site":"primefazendas.com","email":"contato@primefazendas.com","creci":""},
+  "observacoes": "Único documento do conjunto que declara o estado no cabeçalho."
+}

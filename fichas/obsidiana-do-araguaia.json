@@ -1,0 +1,32 @@
+{
+  "slug": "obsidiana-do-araguaia",
+  "codigo": "",
+  "nome": "Fazenda Obsidiana do Araguaia",
+  "regiao_texto": "REGIÃO NORTE",
+  "estado": "",
+  "municipio": "",
+  "area_total_texto": "5.300 hectares (1.095,04 alqueires)",
+  "area_ha": 5300,
+  "area_aberta_texto": "3.093 hectares de área aberta",
+  "aptidao": "Lavoura e pecuária",
+  "infraestrutura": "Casa sede e funcionários, retiro (casa e curral completo) e 2 barracões para máquinas",
+  "logistica": "Beira do asfalto a 10 km da Cidade e 80 km de Araguaína",
+  "recurso_hidrico": "",
+  "valor_texto": "R$ 200 milhões",
+  "valor": 200000000,
+  "opcional": "Área Plantio: 3.093 hectares; Relevo: levemente ondulada pois planta sem curva de nível; Índice pluviométrico: 2.200 mm/ano",
+  "descricao_blocos": [
+    "4.153 hectares no corpo principal e 1.200 hectares de reserva averbada fora da propriedade. São 3.093 hectares de área aberta, com 2.750 hectares atualmente cultivados com soja, em lavouras consolidadas há 6 a 10 anos.",
+    "Terra mista com vegetação de cultura, levemente ondulada, permitindo plantio sem curvas de nível. Índice pluviométrico médio de 2.200 mm, ideal para safra e safrinha.",
+    "Recursos hídricos com nascentes e córregos. Estrutura completa: casa sede, alojamentos, curral, retiro com casa e curral, e 2 barracões para máquinas. Localização estratégica à beira do asfalto, a 10 km da cidade e 80 km de Araguaína."
+  ],
+  "contatos_no_documento": {
+    "telefone": "(63) 98143-7860",
+    "whatsapp": "",
+    "instagram": "@prime_fazendas",
+    "site": "primefazendas.com",
+    "email": "contato@primefazendas.com",
+    "creci": ""
+  },
+  "observacoes": "Sem código e sem município no documento (a logística fala em \"10 km da Cidade\", sem nomeá-la, e em \"80 km de Araguaína\", que é referência de distância; por isso não preenchi município). O cabeçalho diz só \"REGIÃO NORTE\", que não identifica um estado, então \"estado\" ficou vazio. Não há linha \"Recursos hídricos\" na lista de dados — nascentes e córregos aparecem apenas no bloco de descrição —, por isso o campo ficou vazio. Atenção a uma soma que não fecha no próprio documento: 4.153 ha no corpo principal + 1.200 ha de reserva averbada FORA da propriedade = 5.353 ha, enquanto a área total declarada é 5.300 ha; e a reserva, sendo fora do imóvel, provavelmente não deveria ser somada. Transcrevi como está. Fotos: 3 gravadas, nenhuma é o brasão; a foto 1 (obsidiana-do-araguaia-1.webp, também -card.webp) é a imagem genérica de capa (colheitadeira em lavoura de trigo) repetida em todos os one-pagers da Prime — não é foto desta fazenda. As fotos 2 e 3 mostram lavoura de soja e a sede com barracões, coerentes com o texto."
+}

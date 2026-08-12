@@ -1,0 +1,121 @@
+# Transforma um one-pager em fazenda no site.
+#
+# COMO USAR
+#   1. No GitHub, entre na pasta "entrada" e clique em "Add file > Upload files".
+#   2. Solte o PDF da fazenda ali e salve.
+#   3. Pronto. Em poucos minutos o robô:
+#        · recorta as 3 melhores fotos e otimiza;
+#        · lê o texto do documento;
+#        · cria a ficha em fichas/<nome>.json, já preenchida no que dá;
+#        · abre uma PROPOSTA DE ALTERAÇÃO com tudo pronto para você revisar.
+#
+# Nada vai ao ar sozinho: você confere a ficha, ajusta o que quiser e
+# aprova. Só então a fazenda entra no site.
+
+name: Importar fazenda de um PDF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "entrada/**.pdf"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  importar:
+    name: Ler o PDF e preparar a ficha
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar o que lê PDF
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
+          pip install --quiet Pillow
+
+      - name: Importar cada PDF novo
+        id: importar
+        run: |
+          set -e
+          shopt -s nullglob
+          pdfs=(entrada/*.pdf entrada/*.PDF)
+          if [ ${#pdfs[@]} -eq 0 ]; then
+            echo "Nenhum PDF em entrada/. Nada a fazer."
+            echo "houve=nao" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          mkdir -p fichas
+          nomes=""
+          for pdf in "${pdfs[@]}"; do
+            slug=$(basename "$pdf" | sed 's/\.[Pp][Dd][Ff]$//' \
+                   | iconv -f utf8 -t ascii//TRANSLIT \
+                   | tr '[:upper:]' '[:lower:]' \
+                   | sed 's/[^a-z0-9]\+/-/g; s/^-//; s/-$//')
+            echo "::group::$slug"
+            python3 tools/importar-fazenda.py "$pdf" "$slug" --fotos 3 > "/tmp/$slug.json"
+            python3 - "$slug" <<'PY'
+          import json, os, sys
+          slug = sys.argv[1]
+          bruto = json.load(open(f"/tmp/{slug}.json", encoding="utf-8"))
+          destino = f"fichas/{slug}.json"
+          if os.path.exists(destino):
+              print(f"{destino} já existe — mantido como está")
+              raise SystemExit(0)
+          json.dump({
+              "slug": slug,
+              "codigo": "", "nome": "", "regiao_texto": "", "estado": "", "municipio": "",
+              "area_total_texto": "", "area_ha": None, "area_aberta_texto": "",
+              "aptidao": "", "infraestrutura": "", "logistica": "", "recurso_hidrico": "",
+              "valor_texto": "", "valor": None, "opcional": "", "descricao_blocos": [],
+              "contatos_no_documento": {"telefone": "", "instagram": "", "site": "",
+                                        "email": "", "creci": ""},
+              "observacoes": "",
+              "_PREENCHA_COM_O_TEXTO_ABAIXO": "Transcreva apenas o que está escrito. "
+                                              "O que o documento não traz, deixe vazio.",
+              "_texto_do_documento": bruto["texto"],
+          }, open(destino, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+          print(f"{destino} criada com {len(bruto['fotos'])} fotos")
+          PY
+            echo "::endgroup::"
+            nomes="$nomes $slug"
+          done
+
+          mkdir -p entrada/processados
+          for pdf in "${pdfs[@]}"; do git mv "$pdf" "entrada/processados/$(basename "$pdf")"; done
+
+          echo "houve=sim" >> "$GITHUB_OUTPUT"
+          echo "nomes=$nomes" >> "$GITHUB_OUTPUT"
+
+      - name: Abrir a proposta de alteração
+        if: steps.importar.outputs.houve == 'sim'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: importar-fazenda
+          delete-branch: true
+          title: "Fazenda nova para revisar:${{ steps.importar.outputs.nomes }}"
+          commit-message: "Importação:${{ steps.importar.outputs.nomes }}"
+          body: |
+            O robô leu o PDF, separou as fotos e preparou a ficha.
+
+            **O que fazer agora**
+
+            1. Abra o arquivo em `fichas/` e preencha os campos usando o texto do
+               documento, que está no final do próprio arquivo, em
+               `_texto_do_documento`. Transcreva — não complete o que não estiver lá.
+            2. Confira as fotos em `assets/img/fazendas/`. Se a capa não ficou boa,
+               diga qual foto usar rodando `python3 tools/definir-capa.py <nome> 2`.
+            3. Apague as duas linhas que começam com `_` no fim da ficha.
+            4. Aprove esta proposta.
+
+            Ao aprovar, rode `python3 tools/montar-catalogo.py fichas` para a fazenda
+            entrar no catálogo — ou peça ao Claude que faça.

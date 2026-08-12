@@ -1,0 +1,47 @@
+# Confere os dados a cada alteração.
+#
+# Se alguém salvar um JSON quebrado, uma foto que não existe ou um imóvel
+# sem os campos que o site usa, o envio falha aqui e o site NO AR continua
+# como estava. É a rede de segurança entre editar e publicar.
+
+name: Conferir os dados
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "assets/**"
+      - "scripts/**"
+  pull_request:
+    paths:
+      - "data/**"
+      - "assets/**"
+  workflow_dispatch:
+
+jobs:
+  conferir:
+    name: Conferir antes de publicar
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Conferir os dados do site
+        run: python3 scripts/validar-dados.py
+
+      - name: Conferir se as páginas continuam sendo geradas
+        run: |
+          python3 tools/pages.py > /dev/null
+          if [ -n "$(git status --porcelain '*.html' 'en/*.html')" ]; then
+            echo ""
+            echo "As páginas HTML não batem com os geradores em tools/."
+            echo "Alguém editou um .html na mão. Rode 'python3 tools/pages.py',"
+            echo "confira o resultado e envie de novo."
+            git status --porcelain '*.html' 'en/*.html'
+            exit 1
+          fi
+          echo "As páginas conferem com os geradores."

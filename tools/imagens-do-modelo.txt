@@ -1,0 +1,10 @@
+# Imagens do modelo do one-pager — descartadas na importação.
+# Gerado por tools/mapear-imagens-do-modelo.py
+# 23 documentos analisados.
+4113b421265c1242b6c0202e843825d9  # aparece em 22 documentos
+419763efe0e615398452fab1ec975380  # aparece em 23 documentos
+4e9316c1c98e824744c71c2acdb0cba7  # aparece em 22 documentos
+9a8347976a5beacb1854c01ce8750b48  # aparece em 23 documentos
+b08253f0f3e0348d4ea5d21da241ad7d  # aparece em 22 documentos
+b6aef256bb2cd9ee07afafe4393a941a  # aparece em 23 documentos
+db7a0d4d4f707550acc547fb43bc70df  # aparece em 22 documentos

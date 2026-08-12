@@ -1,0 +1,32 @@
+{
+  "slug": "turmalina-negra",
+  "codigo": "",
+  "nome": "Fazenda Turmalina Negra",
+  "regiao_texto": "REGIÃO NORTE",
+  "estado": "",
+  "municipio": "",
+  "area_total_texto": "390 alqueires (1.884,60 hectares)",
+  "area_ha": null,
+  "area_aberta_texto": "Pastagem formada: 850 hectares de capim novo",
+  "aptidao": "Lavoura e Pecuária",
+  "infraestrutura": "sede, casa funcionário e curral",
+  "logistica": "2,4km do asfalto e 4,5km da cidade",
+  "recurso_hidrico": "um ótimo recurso hídrico",
+  "valor_texto": "R$ 45 milhões",
+  "valor": 45000000,
+  "opcional": "100% cercada e um ótimo recurso hídrico",
+  "descricao_blocos": [
+    "Excelentes recursos hídricos",
+    "A área planta 50% de toda área total",
+    "850 hectares de capim novo formado e 12 divisões de pastos"
+  ],
+  "contatos_no_documento": {
+    "telefone": "(63) 98143-7860",
+    "whatsapp": "",
+    "instagram": "@prime_fazendas",
+    "site": "primefazendas.com",
+    "email": "contato@primefazendas.com",
+    "creci": ""
+  },
+  "observacoes": "Área em alqueires: area_ha deixado null conforme a regra. O próprio documento informa a equivalência \"1.884,60 hectares\", transcrita em area_total_texto — não foi feita conversão por mim. Estado ficou vazio: o documento diz apenas \"REGIÃO NORTE\", que não identifica um estado sem ambiguidade, e não cita nenhuma cidade, rodovia ou município (a logística fala só em \"4,5km da cidade\", sem nome). O telefone do rodapé tem DDD 63 (Tocantins), mas é o contato da consultoria, não a localização da fazenda. Município não informado. O documento não traz código; o nome do arquivo também não. O documento não tem linha própria de recurso hídrico: a informação vem da linha \"Outros: 100% cercada e um ótimo recurso hídrico\", transcrita também em opcional. Rodapé traz a assinatura \"CONSULTORIA\" e o mote \"A terra é o único investimento onde o tempo trabalha por você.\"; não há CRECI no documento. Fotos: 3 gravadas, nenhuma é o brasão da Prime. Ressalva: a foto 1 (a que também vira o card) é a imagem de uma colheitadeira em lavoura de trigo que aparece igual no PDF da Fazenda Topázio Imperial — parece ser imagem ilustrativa/banco de imagens, não foto da propriedade. As fotos 2 e 3 são da propriedade (curral/galpão e sede). Vale trocar a capa se quiser só fotos reais."
+}

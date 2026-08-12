@@ -1,0 +1,32 @@
+{
+  "slug": "agua-marinha",
+  "codigo": "",
+  "nome": "Fazenda Água-marinha",
+  "regiao_texto": "REGIÃO NORTE",
+  "estado": "",
+  "municipio": "",
+  "area_total_texto": "4.967 hectares",
+  "area_ha": 4967,
+  "area_aberta_texto": "Área aberta: 1877 hectares e 448 hectares possíveis de abertura",
+  "aptidao": "Lavoura e Pecuária",
+  "infraestrutura": "",
+  "logistica": "acesso a TO-010, 65km de Araguaína e 90km do terminal ferroviário de Porto Franco - MA",
+  "recurso_hidrico": "",
+  "valor_texto": "R$ 123 milhões",
+  "valor": 123000000,
+  "opcional": "",
+  "descricao_blocos": [
+    "Área fica em uma região promissora para a produção de soja, com uma logística mais eficiente e favorável do que a do Mato Grosso, a maior região produtora do país.",
+    "A propriedade foi utilizada para cultivo de eucalipto desde 2010. Em 2023, passou por destoca, enleiramento, coletas de pedras e raízes, gradagem pesada de 38\", aplicação de 6 toneladas de calcário, 100 kg de adubo por hectare e, em seguida, plantio de braquiária",
+    "Com 4.967 hectares, sendo 1.877 úteis e 448 passíveis de abertura, a propriedade se destaca pelo relevo plano, altitude de 300 a 470 metros e índice pluviométrico de 1.600 a 1.800 mm/ano, condições ideais para o cultivo de grãos na safra e na safrinha."
+  ],
+  "contatos_no_documento": {
+    "telefone": "(63) 98143-7860",
+    "whatsapp": "",
+    "instagram": "@prime_fazendas",
+    "site": "primefazendas.com",
+    "email": "contato@primefazendas.com",
+    "creci": ""
+  },
+  "observacoes": "O documento não informa estado nem município: a região aparece só como 'REGIÃO NORTE', então 'estado' ficou vazio. Há indícios fortes de Tocantins na logística ('acesso a TO-010', '65km de Araguaína'), mas não foram usados para preencher a UF — confirmar com o proprietário. O 'MA' que aparece no texto é do terminal ferroviário de Porto Franco, não da fazenda. O documento não traz infraestrutura nem recurso hídrico. Traz ainda 'Topografia: relevo plano, solo com 305 ha com argila entre 20% e 30% e 976 ha com mais de 30% de argila' e 'Índice pluviométrico: 1600 a 1800 mm/ano', que não têm campo próprio na ficha. CONTRADIÇÃO: o texto diz 'Área aberta: 1877 hectares', mas a tabela do MAPA DE USO DE SOLO na página 3 traz Área Útil Total (i+ii) 2.334 ha, Área Útil Atual (i) 1.886 ha, Área passível de desmatamento (ii) 448 ha, Reserva/APP e Outros Usos 2.632 ha, Total 4.967 ha — 1.877 x 1.886 ha. Sem CRECI e sem WhatsApp no rodapé. 3 imagens gravadas, nenhuma é o brasão, mas a de nº 2 não é fotografia: é o MAPA DE USO DE SOLO da propriedade (com a tabela de áreas); e a nº 3 é foto aérea real, porém de baixa resolução (400x267). O PDF só tem essas duas imagens próprias — a nº 1 é a mesma foto genérica de capa (colheitadeira) usada nos outros PDFs da Prime."
+}

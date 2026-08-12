@@ -1,0 +1,32 @@
+{
+  "slug": "rubi-do-araguaia",
+  "codigo": "",
+  "nome": "Fazenda Rubi do Araguaia",
+  "regiao_texto": "REGIÃO SUDESTE",
+  "estado": "",
+  "municipio": "",
+  "area_total_texto": "3.500 ha",
+  "area_ha": 3500,
+  "area_aberta_texto": "2.000 ha",
+  "aptidao": "Lavoura e Pecuária",
+  "infraestrutura": "2 currais, armazém Cap. 30 mil sacas, 3 galpões grandes, balança, 2 câmaras frias e 4 casas",
+  "logistica": "55 km de Porto Nacional e 110km de Palmas",
+  "recurso_hidrico": "represas 60 ha + 7 pivôs (400ha)",
+  "valor_texto": "R$ 105 milhões",
+  "valor": 105000000,
+  "opcional": "Confinamento para 1500 cabeças e ordenha de 5.000 litros ao dia.",
+  "descricao_blocos": [
+    "Propriedade com 2.000 hectares abertos, plantando soja em 1.300ha",
+    "Pastos prontos e manejados, com grande capacidade para a criação de gado e alto volume de ordenhas.",
+    "Infraestrutura completa e abundante recurso hídrico"
+  ],
+  "contatos_no_documento": {
+    "telefone": "(63) 98143-7860",
+    "whatsapp": "",
+    "instagram": "@prime_fazendas",
+    "site": "primefazendas.com",
+    "email": "contato@primefazendas.com",
+    "creci": ""
+  },
+  "observacoes": "O documento não informa estado nem município. O cabeçalho traz apenas \"REGIÃO SUDESTE\", sem indicar o estado — não identifica a UF sem ambiguidade, e ainda conflita com a logística citada (Porto Nacional e Palmas), por isso estado ficou vazio. As cidades citadas são referência de distância, não o município da fazenda. Não há código do imóvel nem CRECI no rodapé. O campo \"Outros\" da ficha técnica foi registrado em opcional. Dado da ficha técnica sem campo correspondente no formato: \"Área Plantio: 1.300 ha\" e \"Pastagem formada: 700 ha (capac. até 2000 gados)\". As 3 fotos são fotografias (lavoura com colheitadeira, gado às margens de represa e colheita de silagem de milho); nenhuma é o brasão da Prime. ATENÇÃO: a foto 1 (e portanto a versão -card) é a MESMA imagem em 22 das 23 fazendas já importadas (md5 80bb2047ca3e7f7dbeb5c5dd0e3378ce): uma colheitadeira verde num campo de trigo, imagem de banco usada na capa do modelo de one-pager da Prime — não é foto da propriedade. Ela não é o brasão, então passa no critério do importador, mas não deve ser usada como foto de capa da fazenda."
+}

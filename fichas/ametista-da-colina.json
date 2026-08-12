@@ -1,0 +1,32 @@
+{
+  "slug": "ametista-da-colina",
+  "codigo": "",
+  "nome": "Fazenda Ametista da Colina",
+  "regiao_texto": "REGIÃO SUDESTE",
+  "estado": "",
+  "municipio": "",
+  "area_total_texto": "2.782 hectares (574,79 alqueires)",
+  "area_ha": 2782,
+  "area_aberta_texto": "",
+  "aptidao": "Lavoura e pecuária",
+  "infraestrutura": "Sede com piscina, galpões, estrutura administrativa, armazém, tanque combustível e pista de avião",
+  "logistica": "310km Palmas, 94km Araguaína e 285km de Paraíso",
+  "recurso_hidrico": "",
+  "valor_texto": "R$ 111.280.000,00",
+  "valor": 111280000,
+  "opcional": "",
+  "descricao_blocos": [
+    "Solo devidamente corrigido, com histórico de produção consolidada há mais de 5 anos, contando ainda com drenagem e irrigação em toda a área cultivada.",
+    "Sistema de exploração atual composto por soja, arroz e pecuária semi-intensiva.",
+    "Propriedade com fácil acesso a rodovias, ótima logística, baixo risco hídrico e vários talhões aptos para agricultura."
+  ],
+  "contatos_no_documento": {
+    "telefone": "(63) 98143-7860",
+    "whatsapp": "",
+    "instagram": "@prime_fazendas",
+    "site": "primefazendas.com",
+    "email": "contato@primefazendas.com",
+    "creci": ""
+  },
+  "observacoes": "O documento não informa estado nem município: a região aparece só como 'REGIÃO SUDESTE', então 'estado' ficou vazio. As distâncias citadas (Palmas, Araguaína e Paraíso) sugerem Tocantins, mas não foram usadas para deduzir a UF. A área total é dada em hectares com o equivalente em alqueires entre parênteses (574,79 alq.), portanto 'area_ha' foi preenchido com o número em hectares do próprio documento, sem conversão. O documento não traz área aberta/de plantio nem recurso hídrico (só a menção, nos blocos, a 'drenagem e irrigação em toda a área cultivada' e 'baixo risco hídrico'). Traz ainda 'Índice pluviométrico: 1400 a 1700 mm/ano', que não tem campo próprio na ficha. Sem CRECI e sem WhatsApp no rodapé. 3 fotos gravadas, nenhuma é o brasão — a nº 1 é a mesma foto genérica de capa (colheitadeira) usada nos outros PDFs da Prime; as nº 2 e 3 são fotos aéreas da estrutura de armazenagem da propriedade."
+}

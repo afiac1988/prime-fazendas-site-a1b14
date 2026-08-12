@@ -1,0 +1,32 @@
+{
+  "slug": "topazio-imperial",
+  "codigo": "31",
+  "nome": "Fazenda Topázio Imperial",
+  "regiao_texto": "REGIÃO SUDESTE",
+  "estado": "TO",
+  "municipio": "",
+  "area_total_texto": "402,66 alqueires (1.948,87 hectares)",
+  "area_ha": null,
+  "area_aberta_texto": "Pastagem: 65% formada em braquiaria, quicuio, andropogon",
+  "aptidao": "Lavoura e pecuária",
+  "infraestrutura": "sede (colono), poço artesiano, curral e energia monofásica",
+  "logistica": "Entre Silvanópolis e Monte do Carmo, 150km de Palmas, 24km do Asfalto, as margens de Rodovia TO",
+  "recurso_hidrico": "Represa média (3 hectares de lâmina de água)",
+  "valor_texto": "R$ 52.346.000,00",
+  "valor": 52346000,
+  "opcional": "",
+  "descricao_blocos": [
+    "Área com latossolos com argila acima de 20% e topografia plana",
+    "Pastos em regime de piquetes",
+    "Fazenda contornadas com áreas de lavouras de milho e soja"
+  ],
+  "contatos_no_documento": {
+    "telefone": "(63) 98143-7860",
+    "whatsapp": "",
+    "instagram": "@prime_fazendas",
+    "site": "primefazendas.com",
+    "email": "contato@primefazendas.com",
+    "creci": ""
+  },
+  "observacoes": "Área em alqueires: area_ha deixado null conforme a regra. O próprio documento informa a equivalência \"1.948,87 hectares\", transcrita em area_total_texto — não foi feita conversão por mim. Município não é informado no documento: o texto diz apenas \"Entre Silvanópolis e Monte do Carmo\", que são dois municípios, por isso o campo ficou vazio. Estado preenchido como TO porque o documento cita Palmas, Silvanópolis, Monte do Carmo e \"Rodovia TO\" (a \"REGIÃO SUDESTE\" do título é, portanto, o sudeste do Tocantins). O código 31 vem do nome do arquivo (\"cód 31\"), não do corpo do documento. Linha do documento sem campo correspondente na ficha: \"Solo: latossolos com argila acima de 20% e topografia plana\". Rodapé traz também a assinatura \"CONSULTORIA\" e o mote \"A terra é o único investimento onde o tempo trabalha por você.\"; não há CRECI no documento. Fotos: o importador gravou apenas 1 das 3 fotos porque as fotografias da propriedade são verticais (retrato) e o filtro de proporção do script só aceita imagens horizontais; as 3 fotos foram então recortadas manualmente do PDF, no mesmo formato e nomenclatura (webp 1600px + card 900px). Nenhuma é o brasão da Prime."
+}

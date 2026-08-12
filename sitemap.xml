@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://primefazendas.com/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://primefazendas.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://primefazendas.com/en/"/>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://primefazendas.com/oportunidades.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://primefazendas.com/oportunidades.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://primefazendas.com/en/opportunities.html"/>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://primefazendas.com/arrendamentos.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://primefazendas.com/arrendamentos.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://primefazendas.com/en/leases.html"/>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://primefazendas.com/radar-agro.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://primefazendas.com/agenda-agro.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://primefazendas.com/quem-somos.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://primefazendas.com/quem-somos.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://primefazendas.com/en/about.html"/>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://primefazendas.com/contato.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://primefazendas.com/contato.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://primefazendas.com/en/contact.html"/>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://primefazendas.com/anuncie.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://primefazendas.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://primefazendas.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://primefazendas.com/"/>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://primefazendas.com/en/opportunities.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://primefazendas.com/en/opportunities.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://primefazendas.com/oportunidades.html"/>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://primefazendas.com/en/leases.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://primefazendas.com/en/leases.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://primefazendas.com/arrendamentos.html"/>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://primefazendas.com/en/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://primefazendas.com/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://primefazendas.com/quem-somos.html"/>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://primefazendas.com/en/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://primefazendas.com/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://primefazendas.com/contato.html"/>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>

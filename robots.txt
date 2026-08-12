@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /propriedade.html
+Disallow: /privacidade.html
+Disallow: /termos.html
+
+Sitemap: https://primefazendas.com/sitemap.xml

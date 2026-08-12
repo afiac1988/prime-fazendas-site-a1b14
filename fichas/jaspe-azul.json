@@ -1,0 +1,32 @@
+{
+  "slug": "jaspe-azul",
+  "codigo": "",
+  "nome": "Fazenda Jaspe Azul",
+  "regiao_texto": "REGIÃO SUDESTE",
+  "estado": "",
+  "municipio": "",
+  "area_total_texto": "1.001,88 hectares (207 alqueires)",
+  "area_ha": null,
+  "area_aberta_texto": "Área plantio: 120 alqueires (plantando 60 alqueires)",
+  "aptidao": "Lavoura e Pecuária",
+  "infraestrutura": "Barracão",
+  "logistica": "160km de Palmas, 20km de chão",
+  "recurso_hidrico": "",
+  "valor_texto": "R$ 22.770.000,00",
+  "valor": 22770000,
+  "opcional": "",
+  "descricao_blocos": [
+    "Propriedade com terreno plano e porcentagem de argila boa.",
+    "Atualmente, plantando 60 alqueires, mas com potencial para 120 alqueires",
+    "Região com logística excelente, próximo a capital e região em vasto crescimento safra e safrinha"
+  ],
+  "contatos_no_documento": {
+    "telefone": "(63) 98143-7860",
+    "whatsapp": "",
+    "instagram": "@prime_fazendas",
+    "site": "primefazendas.com",
+    "email": "contato@primefazendas.com",
+    "creci": ""
+  },
+  "observacoes": "Área anunciada em ALQUEIRES na capa ('207 ALQUEIRES'), por isso 'area_ha' ficou null e o valor original foi mantido em 'area_total_texto', conforme a regra. ATENÇÃO: o próprio documento também traz o equivalente em hectares — 'Área Total: 1.001,88 hectares (207 alqueires)' —, transcrito integralmente em 'area_total_texto'; se quiser usar esse número, ele vem do documento (não foi convertido por mim) e corresponde a alqueire de 4,84 ha. A área de plantio é informada só em alqueires. O documento não informa estado, município nem recurso hídrico; a região aparece apenas como 'REGIÃO SUDESTE' (sem UF), então 'estado' ficou vazio — a única pista é '160km de Palmas', que não foi usada para deduzir a UF. Também traz 'Topografia: Terreno plano', que não tem campo próprio na ficha. Sem CRECI e sem WhatsApp no rodapé. 3 fotos gravadas, nenhuma é o brasão — mas a foto 1 (colheitadeira em lavoura) é a mesma imagem de capa usada no PDF da Fazenda Âmbar, ou seja, imagem genérica de capa e provavelmente não é foto da propriedade."
+}

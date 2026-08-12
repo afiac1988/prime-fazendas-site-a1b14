@@ -1,0 +1,32 @@
+{
+  "slug": "jade-do-campo",
+  "codigo": "",
+  "nome": "Fazenda Jade do Campo",
+  "regiao_texto": "REGIÃO SUDOESTE DO GOIÁS",
+  "estado": "GO",
+  "municipio": "",
+  "area_total_texto": "678 hectares (140 alqueires)",
+  "area_ha": 678,
+  "area_aberta_texto": "",
+  "aptidao": "Lavoura",
+  "infraestrutura": "",
+  "logistica": "36km da cidade de Quirinópolis, a 12km do asfalto e 22km da usina Boa Vista",
+  "recurso_hidrico": "5.030 metros de margens no Lago do Rio Paranaíba",
+  "valor_texto": "R$ 76 milhões",
+  "valor": 76000000,
+  "opcional": "Área Plantio: 495 hectares em cana de açúcar; Solo e relevo: Toda plana, solo vermelho argiloso",
+  "descricao_blocos": [
+    "A propriedade possui um aproveitamento de área de 83%, onde demonstra uma gestão eficiente do espaço, maximizando a utilização para fins produtivos em conformidade com as normativas ambientais",
+    "Atualmente, possui arrendamento com a usina São Martinho para o cultivo de cana de açúcar",
+    "Possui 5.030 metros de margens no Lago do Rio Paranaíba, na divisa com Minas Gerais. Essa característica confere à propriedade não apenas um potencial para atividades de lazer e turismo rural, mas também acesso crucial a recursos hídricos para irrigação"
+  ],
+  "contatos_no_documento": {
+    "telefone": "(63) 98143-7860",
+    "whatsapp": "",
+    "instagram": "@prime_fazendas",
+    "site": "primefazendas.com",
+    "email": "contato@primefazendas.com",
+    "creci": ""
+  },
+  "observacoes": "O documento não traz código nem município. Cita \"36km da cidade de Quirinópolis\" apenas como distância logística, por isso não preenchi \"municipio\" (a região declarada, \"SUDOESTE DO GOIÁS\", justifica estado = GO). Este one-pager não tem as linhas \"Área aberta\" nem \"Infraestrutura\"; no lugar traz \"Área Plantio: 495 hectares em cana de açúcar\" e \"Solo e relevo: Toda plana, solo vermelho argiloso\", que registrei em \"opcional\". A área vem em hectares com o equivalente em alqueires entre parênteses, então area_ha = 678 (sem conversão minha). Fotos: 3 gravadas, nenhuma é o brasão; a foto 1 (jade-do-campo-1.webp, também usada como -card.webp) é a imagem genérica de capa (colheitadeira em lavoura de trigo) idêntica à foto 1 de todos os outros one-pagers da Prime — não é foto desta fazenda. As fotos 2 e 3 são aéreas de canavial/lavoura, aparentemente do imóvel."
+}

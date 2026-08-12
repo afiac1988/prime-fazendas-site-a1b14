@@ -1,0 +1,35 @@
+{
+  "slug": "rubi-negro",
+  "codigo": "36",
+  "nome": "Fazenda Rubi Negro",
+  "regiao_texto": "REGIÃO SUL",
+  "estado": "",
+  "municipio": "",
+  "area_total_texto": "2.328,04 hectares (481 alqueires)",
+  "area_ha": 2328.04,
+  "area_aberta_texto": "",
+  "aptidao": "Lavoura e Pecuária",
+  "infraestrutura": "casas de moradia, suíte, curral com brete e balança, barracão, box para fábrica de ração e armazenamento de insumos, e energia trifásica",
+  "logistica": "25km de Cristalândia (15km de terra), 50km Lagoa da Confusão, 90km Paraíso e 165km de Palmas",
+  "recurso_hidrico": "córrego Água branca, várias nascentes e 10 represas",
+  "valor_texto": "R$ 75 milhões",
+  "valor": 75000000,
+  "opcional": "",
+  "descricao_blocos": [
+    "250 hectares já foram usados para plantio de soja, durante 3 anos, atualmente apenas 120 hectares de soja",
+    "1.360 hectares formados distribuídos em 60 divisões de pastos, com suporte de 2.300 UA (450kg) por hectares em pastagens de braquiária, andropógon, zuri e massai",
+    "Todos os pastos contam com bebedouros de 2500 a 5000 litros, abastecidos por gravidade por um reservatório de 300000lts que capta água do poço artesiano",
+    "Curral anti-stress com brete e balança, toda com corredores de acesso",
+    "Barracão com oficina, almoxarifado, quarto de sal, guarda de máquinas, box para fábrica de ração e armazenamento de insumos para alimentação bovina",
+    "Possui 3 casas para moradia, sendo 1 nova e 1 suíte para o proprietário"
+  ],
+  "contatos_no_documento": {
+    "telefone": "(63) 98143-7860",
+    "whatsapp": "",
+    "instagram": "@prime_fazendas",
+    "site": "primefazendas.com",
+    "email": "contato@primefazendas.com",
+    "creci": ""
+  },
+  "observacoes": "O código \"36\" NÃO consta do corpo do documento: aparece apenas no nome do arquivo no Drive (\"... - cód. 36.pdf\"). Confira antes de publicar. O documento não informa estado nem município; o cabeçalho traz apenas \"REGIÃO SUL\", que não identifica a UF sem ambiguidade — as cidades citadas (Cristalândia, Lagoa da Confusão, Paraíso e Palmas) aparecem só como referência de distância. Não há CRECI no rodapé. Layout diferente das demais fazendas: são 6 blocos de descrição (duas faixas de três), todos transcritos. O documento não informa a área aberta total; traz \"Pastagem formada: 1.360 hectares\" e \"Área plantio: 120 hectares\", e um bloco diz que 250 hectares já foram usados para soja e hoje há 120 hectares plantados. Dado sem campo correspondente no formato: Índice pluviométrico \"2000 a 2100 mm/ano\". As 3 fotos são fotografias (lavoura com colheitadeira, curral coberto e barracão); nenhuma é o brasão da Prime. ATENÇÃO: a foto 1 (e portanto a versão -card) é a MESMA imagem em 22 das 23 fazendas já importadas (md5 80bb2047ca3e7f7dbeb5c5dd0e3378ce): uma colheitadeira verde num campo de trigo, imagem de banco usada na capa do modelo de one-pager da Prime — não é foto da propriedade. Ela não é o brasão, então passa no critério do importador, mas não deve ser usada como foto de capa da fazenda."
+}

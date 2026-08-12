@@ -1,0 +1,7 @@
+{
+  "_leia_me": "Capa escolhida à mão para cada fazenda. Rode `python3 tools/definir-capa.py` sem argumentos depois de reimportar, para reaplicar.",
+  "capas": {
+    "cristal-de-carolina": 3,
+    "agua-marinha": 3
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "pedra-do-sol",
+  "codigo": "",
+  "nome": "Fazenda Pedra do Sol",
+  "regiao_texto": "REGIÃO NORTE",
+  "estado": "",
+  "municipio": "",
+  "area_total_texto": "2.153 hectares (445 alqueires)",
+  "area_ha": 2153,
+  "area_aberta_texto": "1.200 hectares",
+  "aptidao": "Lavoura e pecuária",
+  "infraestrutura": "3 casas, barracão de 750m² fechado com depósito de veneno e oficina, moega, pré limpeza, curral e energia bifásica",
+  "logistica": "",
+  "recurso_hidrico": "poço artesiano com placa solar 200 metros de vazão de 15.000 litros/hora",
+  "valor_texto": "R$ 50 milhões",
+  "valor": 50000000,
+  "opcional": "",
+  "descricao_blocos": [
+    "A área possui potencial para expansão, podendo chegar a 950 a 1000 hectares destinados à lavoura.",
+    "Curral com remanga e balança",
+    "Além de um grande galpão, possui moega com 2 elevadores de grão 40 toneladas/hora e um Pré limpeza usada com um motor MWM trifásico novo"
+  ],
+  "contatos_no_documento": {
+    "telefone": "(63) 98143-7860",
+    "whatsapp": "",
+    "instagram": "@prime_fazendas",
+    "site": "primefazendas.com",
+    "email": "contato@primefazendas.com",
+    "creci": ""
+  },
+  "observacoes": "Informação contraditória: o nome do arquivo no Drive diz \"2521,64ha\", mas o documento informa \"Área Total: 2.153 hectares (445 alqueires)\" no cabeçalho e na ficha técnica. Transcrevi o que está no documento. O documento não informa estado nem município (apenas \"REGIÃO NORTE\") e não traz nenhuma informação de logística/distâncias nem código do imóvel. Diferente de outros one-pagers da Prime, o rodapé deste documento não traz o CRECI. O campo \"Área Plantio: 700 a 730 hectares (potencial de 950 a 1000 hectares)\" consta da ficha técnica mas não tem campo correspondente no formato da ficha; registrado aqui. As 3 fotos gravadas são fotografias (lavoura com colheitadeira, lavoura de milho com galpão ao fundo e lavoura de soja); nenhuma é o brasão da Prime. ATENÇÃO: a foto 1 (e portanto a versão -card) é a MESMA imagem em 22 das 23 fazendas já importadas (md5 80bb2047ca3e7f7dbeb5c5dd0e3378ce): uma colheitadeira verde num campo de trigo, imagem de banco usada na capa do modelo de one-pager da Prime — não é foto da propriedade. Ela não é o brasão, então passa no critério do importador, mas não deve ser usada como foto de capa da fazenda."
+}

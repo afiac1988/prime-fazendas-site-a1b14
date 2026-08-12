@@ -1,0 +1,51 @@
+# Atualiza as manchetes do mercado todo dia, sozinho.
+#
+# Busca os feeds listados em data/noticias-fontes.json, grava as mais
+# recentes em data/noticias.json e envia. O Netlify publica em seguida.
+#
+# Não precisa de senha nem de token: o GITHUB_TOKEN do próprio repositório
+# dá conta. Se nenhuma fonte responder, nada é alterado.
+
+name: Radar Agro — manchetes do mercado
+
+on:
+  schedule:
+    - cron: "0 12 * * *"      # 12h UTC = 9h em Brasília
+  workflow_dispatch:           # botão "Run workflow" na aba Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar-agro
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    name: Buscar manchetes
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Buscar as manchetes
+        run: python3 scripts/buscar-noticias.py
+
+      - name: Conferir antes de enviar
+        run: python3 scripts/validar-dados.py
+
+      - name: Enviar, se houver novidade
+        run: |
+          if [ -z "$(git status --porcelain data/noticias.json)" ]; then
+            echo "Nenhuma manchete nova hoje."
+            exit 0
+          fi
+          git config user.name  "Radar Agro"
+          git config user.email "contato@primefazendas.com"
+          git add data/noticias.json
+          git commit -m "Radar Agro: manchetes de $(date -u -d '-3 hours' +'%d/%m/%Y')"
+          git push
+          echo "Manchetes atualizadas. O Netlify publica em cerca de um minuto."

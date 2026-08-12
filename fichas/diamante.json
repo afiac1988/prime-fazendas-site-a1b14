@@ -1,0 +1,31 @@
+{
+  "slug": "diamante",
+  "codigo": "1",
+  "nome": "Fazenda Diamante",
+  "regiao_texto": "REGIÃO SUDESTE",
+  "estado": "TO",
+  "municipio": "",
+  "area_total_texto": "2.000 hectares",
+  "area_ha": 2000,
+  "area_aberta_texto": "Área Plantio: 1.260 hectares",
+  "aptidao": "Lavoura",
+  "infraestrutura": "Casa e estrutura de apoio",
+  "logistica": "Apenas 3 km de Santa Rosa - TO",
+  "recurso_hidrico": "",
+  "valor_texto": "R$ 80 milhões",
+  "valor": 80000000,
+  "opcional": "",
+  "descricao_blocos": [
+    "O plantio é feito em três áreas, sendo que a menor delas está em cultivo há 10 anos e a maior, há 25 anos",
+    "Excelente infraestrutura"
+  ],
+  "contatos_no_documento": {
+    "telefone": "(63) 98143-7860",
+    "whatsapp": "",
+    "instagram": "@prime_fazendas",
+    "site": "primefazendas.com",
+    "email": "contato@primefazendas.com",
+    "creci": ""
+  },
+  "observacoes": "O cabeçalho traz apenas \"REGIÃO SUDESTE\", sem citar o estado; preenchi `estado` com \"TO\" porque a própria logística do documento escreve \"Apenas 3 km de Santa Rosa - TO\" — é a única sigla de estado que aparece no material, não uma dedução externa. Confira, se preferir critério mais rígido. O município não é informado (Santa Rosa aparece só como referência de distância), então `municipio` ficou vazio. O campo do documento é \"Área Plantio\" (não \"área aberta\") — transcrito com o rótulo original em `area_aberta_texto`. A página de descrição tem só 2 blocos, um deles com apenas duas palavras (\"Excelente infraestrutura\"), abaixo do padrão de 3 blocos das outras fazendas. Não há informação de recursos hídricos nem de opcional. O código \"1\" veio do nome do arquivo (\"cód. 1\"); o corpo do documento não traz código. Rodapé sem CRECI e sem WhatsApp identificado como tal. 3 fotos gravadas, todas fotografias reais (nenhuma é o brasão da Prime). ATENÇÃO (vale para as 5 fazendas que processei): a foto -1 é idêntica em todos os documentos — a mesma imagem de banco de imagens de uma colheitadeira em lavoura de trigo (arquivo de 162.372 bytes em todos os slugs), que é a capa padrão do one-pager, e não uma foto da propriedade. Só as fotos -2 e -3 são do imóvel. Recomendo não usar a -1 como imagem do cartão."
+}

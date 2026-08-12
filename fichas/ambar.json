@@ -1,0 +1,34 @@
+{
+  "slug": "ambar",
+  "codigo": "15",
+  "nome": "Fazenda Âmbar",
+  "regiao_texto": "REGIÃO SUDOESTE",
+  "estado": "",
+  "municipio": "",
+  "area_total_texto": "5.774 hectares (1.193 alqueires)",
+  "area_ha": 5774,
+  "area_aberta_texto": "Pastagem formada: 1450 hectares; Área de plantio: 3.146 hectares (650 alqueires)",
+  "aptidao": "Lavoura e Pecuária",
+  "infraestrutura": "Sede ampla, garagem, casas para funcionários, galpão para máquinas e implementos, galpão auxiliar, tanque de combustível",
+  "logistica": "210km de Palmas, 25km de armazéns gerais",
+  "recurso_hidrico": "nascentes, poço artesiano, canais perenes, aguadas, lagos e córregos",
+  "valor_texto": "R$ 178.950.000,00",
+  "valor": 178950000,
+  "opcional": "",
+  "descricao_blocos": [
+    "Agricultura predominante na região é arrozal e a área possui projeto de irrigação por gravidade em 1.452 hectares.",
+    "Pecuária conta com 55 repartimentos de pastos, 4 tipos de pastagem e possui ótimas pastarias para cria, recria e engorda de gado nelore ou búfalos",
+    "Possui 3 currais, sendo o principal com galpão brete, balança digital e capacidade para 1000 animais, 1 retiro com curral e outro curral auxiliar tendo 5 baias para equinos.",
+    "Casa sede ampla com várias suítes, garagem coberta separada para 3 veículos, jardim, poço artesiano e energia trifásica",
+    "4 casas para funcionários, 1 galpão coberto de 1460m² para máquinas e implementos, galpão auxiliar, oficina e tanque de combustível"
+  ],
+  "contatos_no_documento": {
+    "telefone": "(63) 98143-7860",
+    "whatsapp": "",
+    "instagram": "@prime_fazendas",
+    "site": "primefazendas.com",
+    "email": "contato@primefazendas.com",
+    "creci": ""
+  },
+  "observacoes": "O documento não informa estado nem município. A região aparece apenas como 'REGIÃO SUDOESTE' (sem indicação de UF), por isso 'estado' ficou vazio; a única pista é a logística ('210km de Palmas'), que não foi usada para deduzir a UF. O código '15' não aparece no corpo do PDF — vem do nome do arquivo no Drive ('Prime Fazenda - Fazenda Âmbar - 5.774ha - cód. 15.pdf'). O documento traz ainda 'Índice pluviométrico: 1.847mm', que não tem campo próprio na ficha. Nenhum CRECI e nenhum WhatsApp no rodapé — só o telefone (63) 98143-7860. 3 fotos gravadas, nenhuma é o brasão."
+}

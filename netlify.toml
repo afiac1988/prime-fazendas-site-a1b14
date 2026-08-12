@@ -1,11 +1,72 @@
 [build]
   publish = "."
-  command = "echo 'Build complete'"
 
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=300, must-revalidate"
+
+# Bastidores fora do ar: geradores, robôs e fichas de trabalho não são o site
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+  from = "/tools/*"
+  to = "/404.html"
+  status = 404
+[[redirects]]
+  from = "/scripts/*"
+  to = "/404.html"
+  status = 404
+[[redirects]]
+  from = "/fichas/*"
+  to = "/404.html"
+  status = 404
+[[redirects]]
+  from = "/entrada/*"
+  to = "/404.html"
+  status = 404
 
-[build.environment]
-  NODE_VERSION = "18"
+# URLs limpas: /oportunidades em vez de /oportunidades.html
+[[redirects]]
+  from = "/oportunidades"
+  to = "/oportunidades.html"
+  status = 200
+[[redirects]]
+  from = "/arrendamentos"
+  to = "/arrendamentos.html"
+  status = 200
+[[redirects]]
+  from = "/radar-agro"
+  to = "/radar-agro.html"
+  status = 200
+[[redirects]]
+  from = "/agenda-agro"
+  to = "/agenda-agro.html"
+  status = 200
+[[redirects]]
+  from = "/quem-somos"
+  to = "/quem-somos.html"
+  status = 200
+[[redirects]]
+  from = "/contato"
+  to = "/contato.html"
+  status = 200
+[[redirects]]
+  from = "/anuncie"
+  to = "/anuncie.html"
+  status = 200
+[[redirects]]
+  from = "/propriedade"
+  to = "/propriedade.html"
+  status = 200

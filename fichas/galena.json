@@ -1,0 +1,32 @@
+{
+  "slug": "galena",
+  "codigo": "27",
+  "nome": "Fazenda Galena",
+  "regiao_texto": "REGIÃO NORTE",
+  "estado": "",
+  "municipio": "",
+  "area_total_texto": "2.100 hectares",
+  "area_ha": 2100,
+  "area_aberta_texto": "60% de área aberta",
+  "aptidao": "Lavoura e pecuária",
+  "infraestrutura": "sedes, casas funcionários, refeitório, energia, galpão para máquinas, oficina, depósitos, fábrica de ração e curral",
+  "logistica": "acesso a BR-153",
+  "recurso_hidrico": "Córregos, riachos, 2 represas para abastecimento de água na pecuária, poço artesiano e caixa d'água",
+  "valor_texto": "R$ 55 milhões",
+  "valor": 55000000,
+  "opcional": "Índice pluviométrico: 1600 a 1700mm",
+  "descricao_blocos": [
+    "Área com dupla aptidão, algumas partes com prática na lavoura a mais de 10 anos.",
+    "Possui fábrica de ração, curral coberto com tronco e balança e coxos, feito rotação entre pecuária e lavoura.",
+    "Infraestrutura completa: 2 sedes, 4 casas para funcionários, 1 refeitório, galpões, oficina e depósitos."
+  ],
+  "contatos_no_documento": {
+    "telefone": "(63) 98143-7860",
+    "whatsapp": "",
+    "instagram": "@prime_fazendas",
+    "site": "primefazendas.com",
+    "email": "contato@primefazendas.com",
+    "creci": ""
+  },
+  "observacoes": "O código 27 não aparece no corpo do documento; consta apenas do nome do arquivo no Drive (\"Prime Fazendas - Fazenda Galena - 2100ha - cód. 27.pdf\"). O documento diz apenas \"REGIÃO NORTE\", sem estado nem município, por isso ambos ficaram vazios (o DDD 63 do telefone é da corretora, não serve como localização do imóvel). O campo \"opcional\" recebeu a linha extra de dados do documento (índice pluviométrico). Não há CRECI nem menção a WhatsApp no rodapé. Fotos: 3 gravadas, nenhuma é o brasão da Prime; porém a foto 1 (galena-1.webp, usada também como galena-card.webp) é uma imagem genérica de capa (colheitadeira em lavoura de trigo) idêntica, byte a byte, à foto 1 de todos os outros one-pagers da Prime — não é foto da fazenda. As fotos 2 e 3 são aéreas reais do imóvel (pasto com estrada de terra e sede com casas e coqueiros), mas de baixa resolução (~548x359)."
+}

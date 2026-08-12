@@ -1,0 +1,32 @@
+{
+  "slug": "jade-dos-lirios",
+  "codigo": "",
+  "nome": "Fazenda Jade dos Lírios",
+  "regiao_texto": "REGIÃO LESTE",
+  "estado": "",
+  "municipio": "",
+  "area_total_texto": "2.735 hectares (565 alqueires)",
+  "area_ha": 2735,
+  "area_aberta_texto": "",
+  "aptidao": "Lavoura e pecuária",
+  "infraestrutura": "Casa rustica",
+  "logistica": "Próxima a rodovia TO-020 com acesso direto pela entrada principal",
+  "recurso_hidrico": "",
+  "valor_texto": "R$ 9 milhões",
+  "valor": 9000000,
+  "opcional": "Índice pluviométrico: 1800 mm/ano",
+  "descricao_blocos": [
+    "A propriedade conta com rios de pequeno porte, vertentes e nascentes, garantindo excelente disponibilidade hídrica.",
+    "Área predominantemente coberta por vegetação nativa, com solo apto tanto para agricultura quanto para pecuária.",
+    "Excelente logística, com localização próxima à rodovia TO-020 e acesso direto pela estrada principal."
+  ],
+  "contatos_no_documento": {
+    "telefone": "(63) 98143-7860",
+    "whatsapp": "",
+    "instagram": "@prime_fazendas",
+    "site": "primefazendas.com",
+    "email": "contato@primefazendas.com",
+    "creci": ""
+  },
+  "observacoes": "Sem código e sem município no documento. O cabeçalho diz apenas \"REGIÃO LESTE\", que não identifica estado, por isso deixei \"estado\" vazio — vale registrar que a logística cita a rodovia TO-020, sigla de rodovia estadual do Tocantins; se quiser assumir TO, é decisão sua, eu não deduzi. O documento não traz a linha \"Recursos hídricos\" na lista de dados (a menção a rios, vertentes e nascentes aparece só no bloco de descrição), nem a linha \"Área aberta\"; por isso os dois campos ficaram vazios. \"Casa rustica\" está sem acento no original. Índice pluviométrico registrado em \"opcional\". Fotos: 3 gravadas, nenhuma é o brasão; a foto 1 (jade-dos-lirios-1.webp, também -card.webp) é a imagem genérica de capa (colheitadeira em lavoura de trigo) repetida em todos os one-pagers da Prime — não é foto desta fazenda. As fotos 2 e 3 são aéreas de vegetação nativa/cerrado, coerentes com o texto."
+}

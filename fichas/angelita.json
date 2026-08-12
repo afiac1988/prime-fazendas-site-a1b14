@@ -1,0 +1,32 @@
+{
+  "slug": "angelita",
+  "codigo": "24",
+  "nome": "Fazenda Angelita",
+  "regiao_texto": "REGIÃO CENTRAL",
+  "estado": "",
+  "municipio": "",
+  "area_total_texto": "620 hectares",
+  "area_ha": 620,
+  "area_aberta_texto": "320 hectares, podendo chegar a 380 hectares.",
+  "aptidao": "Lavoura e pecuária",
+  "infraestrutura": "barracão para máquinas e casa simples",
+  "logistica": "5km da margem do asfalto, 53km de Palmas.",
+  "recurso_hidrico": "",
+  "valor_texto": "R$ 10 milhões",
+  "valor": 10000000,
+  "opcional": "",
+  "descricao_blocos": [
+    "Fazenda faz divisa com a hidrelétrica e possui um contrato de arrendamento de 400 hectares para instalação de placas solares",
+    "O contrato com a usina possui carência de 3 anos ou se terminar a implantação antes, para iniciar o pagamento, período do contrato é de 35 anos.",
+    "Recentemente foi semeado capim massay na área aberta."
+  ],
+  "contatos_no_documento": {
+    "telefone": "(63) 98143-7860",
+    "whatsapp": "",
+    "instagram": "@prime_fazendas",
+    "site": "primefazendas.com",
+    "email": "contato@primefazendas.com",
+    "creci": ""
+  },
+  "observacoes": "CONTRADIÇÃO IMPORTANTE: o nome do arquivo diz \"1500ha\", mas o documento informa, em dois lugares (capa e ficha técnica), \"620 hectares\". Foi transcrito o que está no documento (620 ha) — vale conferir com a corretora qual é a área correta. O código \"24\" veio apenas do nome do arquivo (\"cód. 24\"); o corpo do documento não traz código. O documento informa apenas \"REGIÃO CENTRAL\", sem estado nem município — por isso ambos ficaram vazios (a referência \"53km de Palmas\" na logística não foi usada para deduzir, conforme a regra). Não há qualquer menção a recursos hídricos nem a itens opcionais. Rodapé sem CRECI e sem WhatsApp identificado como tal. 3 fotos gravadas, todas fotografias reais (nenhuma é o brasão da Prime). ATENÇÃO (vale para as 5 fazendas que processei): a foto -1 é idêntica em todos os documentos — a mesma imagem de banco de imagens de uma colheitadeira em lavoura de trigo (arquivo de 162.372 bytes em todos os slugs), que é a capa padrão do one-pager, e não uma foto da propriedade. Só as fotos -2 e -3 são do imóvel. Recomendo não usar a -1 como imagem do cartão."
+}

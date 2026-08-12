@@ -1,0 +1,32 @@
+{
+  "slug": "cristal-de-carolina",
+  "codigo": "",
+  "nome": "Fazenda Cristal de Carolina",
+  "regiao_texto": "CAROLINA - MA",
+  "estado": "MA",
+  "municipio": "Carolina",
+  "area_total_texto": "16.115 (3.329,54 alqueires)",
+  "area_ha": 16115,
+  "area_aberta_texto": "",
+  "aptidao": "Lavoura e pecuária",
+  "infraestrutura": "",
+  "logistica": "310km Palmas, 94km Araguaína e 285km de Paraíso",
+  "recurso_hidrico": "",
+  "valor_texto": "R$ 483.450.000,00",
+  "valor": 483450000,
+  "opcional": "",
+  "descricao_blocos": [
+    "Cerca de 50% da área total encontra-se formada em pastagens.",
+    "A propriedade é composta por 8 matrículas, oferecendo maior flexibilidade de gestão e negociação.",
+    "A propriedade apresenta elevado potencial econômico, com pecuária semi-intensiva já implantada, áreas aptas para agricultura e sistema atual de exploração voltado para a pecuária de corte"
+  ],
+  "contatos_no_documento": {
+    "telefone": "(63) 98143-7860",
+    "whatsapp": "",
+    "instagram": "@prime_fazendas",
+    "site": "primefazendas.com",
+    "email": "contato@primefazendas.com",
+    "creci": ""
+  },
+  "observacoes": "Este documento traz dois campos que não têm lugar na ficha e ficam registrados aqui para não se perderem: \"Solo: Latossolo e Plintossolos\" e \"Índice pluviométrico: 1400 a 1700 mm/ano\". A ficha técnica não menciona infraestrutura, recursos hídricos, área aberta nem opcional — os campos ficaram vazios. Na linha da área total o documento escreve \"16.115 (3.329,54 alqueires)\", sem repetir a unidade; o cabeçalho confirma \"16.115 HECTARES\", então area_ha = 16115. Não há código de imóvel no documento nem no nome do arquivo. A 2ª foto gravada não é uma fotografia de paisagem, e sim uma imagem de satélite anotada mostrando a propriedade dividida em \"COMPLEXO 1\" e \"COMPLEXO 2 - 14.792ha\", com fazendas nomeadas (Paraíso 6.247ha, Santa Filomena 5.683ha, Boa V... 1.815ha, Bacaba 561ha, São Félix 486ha, Canadá 1.068ha, Morro dos Bodes 144ha) — vale conferir, pois esse detalhamento não aparece no texto e a soma do complexo mostrado difere dos 16.115 ha anunciados. Nenhuma das 3 fotos é o brasão da Prime. Rodapé sem CRECI e sem WhatsApp identificado como tal. ATENÇÃO (vale para as 5 fazendas que processei): a foto -1 é idêntica em todos os documentos — a mesma imagem de banco de imagens de uma colheitadeira em lavoura de trigo (arquivo de 162.372 bytes em todos os slugs), que é a capa padrão do one-pager, e não uma foto da propriedade. Só as fotos -2 e -3 são do imóvel. Recomendo não usar a -1 como imagem do cartão."
+}

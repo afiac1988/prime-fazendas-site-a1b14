@@ -1,0 +1,32 @@
+{
+  "slug": "esmeralda-do-cerrado",
+  "codigo": "12",
+  "nome": "Fazenda Esmeralda do Cerrado",
+  "regiao_texto": "REGIÃO CENTRAL",
+  "estado": "",
+  "municipio": "",
+  "area_total_texto": "64 alqueires",
+  "area_ha": null,
+  "area_aberta_texto": "Pastagem: 30 bem formados com licença para abrir mais 5",
+  "aptidao": "Pecuária",
+  "infraestrutura": "Energia, casa para vaqueiro e projeto de construção da sede",
+  "logistica": "25km de asfalto e 22km de estrada de chão, 50 min. de Palmas",
+  "recurso_hidrico": "3 nascentes que não secam e poço artesiano com mais de 200mts de profundidade",
+  "valor_texto": "R$ 6 milhões",
+  "valor": 6000000,
+  "opcional": "",
+  "descricao_blocos": [
+    "A fazenda comporta cerca de 450 cabeças no inverno e 300 cabeças no verão",
+    "A terra possui muita madeira nativa e pastos com várias divisões",
+    "Conta com um curral com balança e cobertura, além de uma caixa d'água de 10 mil litros que abastece todos os bebedouros e cochos cobertos nos pastos"
+  ],
+  "contatos_no_documento": {
+    "telefone": "(63) 98143-7860",
+    "whatsapp": "",
+    "instagram": "@prime_fazendas",
+    "site": "primefazendas.com",
+    "email": "contato@primefazendas.com",
+    "creci": ""
+  },
+  "observacoes": "ÁREA EM ALQUEIRES: o documento informa \"64 alqueires\" e não dá o equivalente em hectares, portanto `area_ha` ficou null e a medida original foi registrada em `area_total_texto`, sem conversão (o alqueire varia por região). O campo de pastagem — \"Pastagem: 30 bem formados com licença para abrir mais 5\" — também está em alqueires subentendidos e sem unidade explícita no original; transcrito literalmente em `area_aberta_texto`. O documento informa apenas \"REGIÃO CENTRAL\", sem estado nem município — ambos ficaram vazios (a referência \"50 min. de Palmas\" na logística não foi usada para deduzir, conforme a regra). O código \"12\" veio do nome do arquivo (\"cód. 12\"); o corpo do documento não traz código. Não há menção a itens opcionais. Rodapé sem CRECI e sem WhatsApp identificado como tal. 3 fotos gravadas, todas fotografias reais (nenhuma é o brasão da Prime). ATENÇÃO (vale para as 5 fazendas que processei): a foto -1 é idêntica em todos os documentos — a mesma imagem de banco de imagens de uma colheitadeira em lavoura de trigo (arquivo de 162.372 bytes em todos os slugs), que é a capa padrão do one-pager, e não uma foto da propriedade. Só as fotos -2 e -3 são do imóvel. Recomendo não usar a -1 como imagem do cartão."
+}

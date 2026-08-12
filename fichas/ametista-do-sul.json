@@ -1,0 +1,32 @@
+{
+  "slug": "ametista-do-sul",
+  "codigo": "",
+  "nome": "Fazenda Ametista do Sul",
+  "regiao_texto": "REGIÃO SUL",
+  "estado": "",
+  "municipio": "",
+  "area_total_texto": "1.761,76 hectares (364 alqueires)",
+  "area_ha": 1761.76,
+  "area_aberta_texto": "",
+  "aptidao": "Lavoura e pecuária",
+  "infraestrutura": "Infraestrutura Pecuária: 26 divisões de pastos e curral. Infraestrutura: Casa sede e vaqueiro, barracão de 14 por 30 com duas residências ao fundo",
+  "logistica": "36km de alvorada sendo 22km asfaltos e 14km de chão",
+  "recurso_hidrico": "28 represas, 11 km beira do rio cana brava e poço artesiano com vazão de 10.000 horas",
+  "valor_texto": "R$ 67.340.000,00",
+  "valor": 67340000,
+  "opcional": "",
+  "descricao_blocos": [
+    "Estrutura completa para pecuária com 26 divisões de pastos, curral, casa para vaqueiro e represas.",
+    "Formada com capins andropogon, kikuio, mombaça e braquiária.",
+    "Na frente divide com Fazenda de pecuária a esquerda divide com fazenda que colhe 130.000 sacas de soja milho e sorgo."
+  ],
+  "contatos_no_documento": {
+    "telefone": "(63) 98143-7860",
+    "whatsapp": "",
+    "instagram": "@prime_fazendas",
+    "site": "primefazendas.com",
+    "email": "contato@primefazendas.com",
+    "creci": ""
+  },
+  "observacoes": "O documento informa apenas \"REGIÃO SUL\", sem dizer o estado nem o município — por isso `estado` e `municipio` ficaram vazios (o DDD (63) do rodapé e a menção a \"alvorada\" na logística não foram usados para deduzir, conforme a regra). Não há código de imóvel no documento nem no nome do arquivo. O recurso hídrico traz \"poço artesiano com vazão de 10.000 horas\", provável erro do original (a unidade de vazão não é hora) — transcrito literalmente. Não há informação de área aberta nem de opcional. Rodapé sem CRECI e sem WhatsApp identificado como tal; a página final traz o lema \"A terra é o único investimento onde o tempo trabalha por você.\". 3 fotos gravadas, todas fotografias reais (nenhuma é o brasão da Prime). ATENÇÃO (vale para as 5 fazendas que processei): a foto -1 é idêntica em todos os documentos — a mesma imagem de banco de imagens de uma colheitadeira em lavoura de trigo (arquivo de 162.372 bytes em todos os slugs), que é a capa padrão do one-pager, e não uma foto da propriedade. Só as fotos -2 e -3 são do imóvel. Recomendo não usar a -1 como imagem do cartão."
+}

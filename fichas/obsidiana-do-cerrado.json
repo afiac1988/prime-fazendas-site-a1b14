@@ -1,0 +1,32 @@
+{
+  "slug": "obsidiana-do-cerrado",
+  "codigo": "",
+  "nome": "Fazenda Obsidiana do Cerrado",
+  "regiao_texto": "REGIÃO SUDESTE",
+  "estado": "",
+  "municipio": "",
+  "area_total_texto": "7.260 hectares (1.500 alqueires)",
+  "area_ha": 7260,
+  "area_aberta_texto": "",
+  "aptidao": "Lavoura e Pecuária",
+  "infraestrutura": "Casa sede e funcionários, curral, barracão e energia trifásica",
+  "logistica": "8km da cidade, 65,6km de Porto Nacional e 112,6km da entrada de Palmas, sendo 3,6km de chão e com aceeso a da BR-010",
+  "recurso_hidrico": "Poço artesiano, vários córregos e represas",
+  "valor_texto": "R$ 195 milhões",
+  "valor": 195000000,
+  "opcional": "Pastagem formada: 4.719 hectares; Índice pluvimétrico: 1900 mm",
+  "descricao_blocos": [
+    "A propriedade atualmente está com 4.719ha em pastos, sendo a maioria brachiaria,",
+    "Possui um aproveitamento de 65% para lavoura, incluindo as áreas em pastos, toda plana, rodeada de lavouras de soja e tem um silo a 10km da fazenda",
+    "Solo com argila acima de 30%, latossolo amarelo e vermelho, sem cascalho e pedras,"
+  ],
+  "contatos_no_documento": {
+    "telefone": "(63) 98143-7860",
+    "whatsapp": "",
+    "instagram": "@prime_fazendas",
+    "site": "primefazendas.com",
+    "email": "contato@primefazendas.com",
+    "creci": "037900-J"
+  },
+  "observacoes": "Único dos cinco documentos que traz CRECI no rodapé: \"CRECI: 037900-J\". Sem código e sem município. O cabeçalho diz apenas \"REGIÃO SUDESTE\", sem estado — e isso é contraditório com a logística, que cita Porto Nacional e Palmas (Tocantins, região Norte do Brasil); por isso deixei \"estado\" vazio em vez de arriscar. O documento não traz \"Área aberta\"; traz \"Pastagem formada: 4.719 hectares\", que registrei em \"opcional\" junto com o índice pluviométrico. Erros de digitação do PRÓPRIO documento, mantidos na transcrição: \"com aceeso a da BR-010\" (na logística) e \"Índice pluvimétrico\" (em vez de pluviométrico). Corrigi só o acento de \"esta\" -> \"está\" no primeiro bloco. Os blocos 1 e 3 terminam com vírgula no original, como se a frase estivesse incompleta. Fotos: 3 gravadas, nenhuma é o brasão; a foto 1 (obsidiana-do-cerrado-1.webp, também -card.webp) é a imagem genérica de capa (colheitadeira em lavoura de trigo) repetida em todos os one-pagers da Prime — não é foto desta fazenda. As fotos 2 e 3 mostram gado em pasto e o curral, coerentes com o texto."
+}
