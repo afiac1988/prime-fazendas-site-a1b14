@@ -1,6 +1,6 @@
 {
   "_leia_me": "Manchetes do mercado, atualizadas sozinhas todo dia. São remissões: título, veículo e link para a publicação original. O texto editorial da Prime fica em articles.json. Para trocar as fontes, edite data/noticias-fontes.json.",
-  "atualizado_em": "2026-08-12T11:24:58-03:00",
+  "atualizado_em": "2026-08-13T12:42:20+00:00",
   "fontes_que_falharam": [
     "Notícias Agrícolas",
     "Globo Rural",
@@ -8,27 +8,27 @@
   ],
   "noticias": [
     {
-      "titulo": "STF julga ações sobre a Moratória da Soja; Aprosoja MT comenta impacto para produtores",
-      "url": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/stf-julga-acoes-sobre-a-moratoria-da-soja-aprosoja-mt-comenta-impacto-para-produtores/",
-      "data": "2026-08-12",
+      "titulo": "Fundo Rio Doce libera R$ 32,4 milhões para sete unidades de conservação",
+      "url": "https://www.canalrural.com.br/economia/fundo-rio-doce-libera-r-324-milhoes-para-sete-unidades-de-conservacao/",
+      "data": "2026-08-13",
       "fonte": "Canal Rural"
     },
     {
-      "titulo": "PNL 2050 projeta R$ 1,225 trilhão em investimentos em logística até 2050",
-      "url": "https://www.canalrural.com.br/economia/pnl-2050-projeta-r-1225-trilhao-em-investimentos-em-logistica-ate-2050/",
-      "data": "2026-08-12",
+      "titulo": "Senado aprova redução de impostos sobre combustíveis e muda tributação para produtores",
+      "url": "https://www.canalrural.com.br/politica/senado-aprova-reducao-de-impostos-sobre-combustiveis-e-muda-tributacao-para-produtores/",
+      "data": "2026-08-13",
       "fonte": "Canal Rural"
     },
     {
-      "titulo": "Lucro ajustado da Adecoagro sobe 170% no segundo trimestre de 2026",
-      "url": "https://www.canalrural.com.br/economia/lucro-ajustado-da-adecoagro-sobe-170-no-segundo-trimestre-de-2026/",
-      "data": "2026-08-12",
+      "titulo": "Decreto regulamenta programa de combustível sustentável de aviação",
+      "url": "https://www.canalrural.com.br/politica/decreto-regulamenta-programa-de-combustivel-sustentavel-de-aviacao/",
+      "data": "2026-08-13",
       "fonte": "Canal Rural"
     },
     {
-      "titulo": "Fertilizantes na soja: onde está o ganho de eficiência? Especialista da Yara Brasil explica",
-      "url": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/fertilizantes-na-soja-onde-esta-o-ganho-de-eficiencia-especialista-da-yara-brasil-explica/",
-      "data": "2026-08-12",
+      "titulo": "MDA cria grupo para estruturar programa de valorização de sistemas agrícolas tradicionais",
+      "url": "https://www.canalrural.com.br/politica/mda-cria-grupo-para-estruturar-programa-de-valorizacao-de-sistemas-agricolas-tradicionais/",
+      "data": "2026-08-13",
       "fonte": "Canal Rural"
     }
   ]
