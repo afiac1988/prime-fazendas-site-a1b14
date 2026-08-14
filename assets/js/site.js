@@ -663,7 +663,7 @@
               ">" +
               '<div class="artigo__figura"><img src="' +
               esc(base + a.imagem) +
-              '" alt="" loading="lazy" decoding="async" width="1200" height="800"></div>' +
+              '" alt="" loading="eager" decoding="async" width="1200" height="800"></div>' +
               "<div>" +
               '<p class="artigo__meta"><span class="artigo__categoria">' +
               esc(a.categoria) +
