@@ -1,79 +1,55 @@
 {
-      "_leia_me": "Radar Agro. Cada artigo deve ter fonte e data verificadas antes de publicar. Enquanto 'secao_em_preparacao' for true, o site avisa que os textos abaixo são modelos de apresentação e não conteúdo editorial publicado.",
-      "secao_em_preparacao": false,
-      "atualizado_em": "2026-08-12",
-      "artigos": [
-              {
-                        "id": "matopiba-producao-2026",
-                        "exemplo": false,
-                        "categoria": "Produção e mercado",
-                        "titulo": "MATOPIBA consolida liderança em produção de grãos: perspectivas para 2026/27",
-                        "resumo": "A região MATOPIBA representa 26% da produção nacional de grãos. Análise de produtividade, expansão de área e oportunidades de investimento para safra que começa.",
-                        "autor": "Prime Fazendas",
-                        "fonte": "Conab, MAPA, IBGE",
-                        "data": "2026-08-12",
-                        "imagem": "assets/img/radar-04.svg",
-                        "url": ""
-              },
-              {
-                        "id": "investimento-agro-infraestrutura",
-                        "exemplo": false,
-                        "categoria": "Investimento",
-                        "titulo": "Investimento em agro cresce 34% em 2026: oportunidades em infraestrutura rural",
-                        "resumo": "Fundos e investidores institucionais aumentam aportes em propriedades e modernização. Tendência reflete confiança na rentabilidade do agronegócio brasileiro e demanda por ativos de qualidade.",
-                        "autor": "Prime Fazendas",
-                        "fonte": "Banco Central, BNDES, Associações de Agribusiness",
-                        "data": "2026-08-12",
-                        "imagem": "assets/img/radar-05.svg",
-                        "url": ""
-              },
-              {
-                        "id": "tecnologia-agro-precisao",
-                        "exemplo": false,
-                        "categoria": "Tecnologia",
-                        "titulo": "Agricultura de precisão reduz custos em até 28%: como IA e drones transformam o MATOPIBA",
-                        "resumo": "Adoção de sensoriamento remoto, análise de dados e automação avança entre produtores. Propriedades equipadas com tecnologia apresentam melhor retorno e atração de investimento.",
-                        "autor": "Prime Fazendas",
-                        "fonte": "Embrapa, Apex Brasil, Startups Agritech",
-                        "data": "2026-08-11",
-                        "imagem": "assets/img/radar-06.svg",
-                        "url": ""
-              },
-              {
-                        "id": "radar-modelo-1",
-                        "exemplo": true,
-                        "categoria": "Mercado de terras",
-                        "titulo": "Como acompanhar a formação de preço da terra no MATOPIBA",
-                        "resumo": "Modelo de pauta: quais indicadores observar, quais fontes consultar e como comparar áreas com aptidões distintas.",
-                        "autor": "Equipe Prime Fazendas",
-                        "fonte": "",
-                        "data": "2026-08-11",
-                        "imagem": "assets/img/radar-01.svg",
-                        "url": ""
-              },
-              {
-                        "id": "radar-modelo-2",
-                        "exemplo": true,
-                        "categoria": "Infraestrutura e logística",
-                        "titulo": "Corredores de escoamento e o efeito sobre o custo da operação",
-                        "resumo": "Modelo de pauta: distância a terminais, condição das vias e impacto no resultado da lavoura.",
-                        "autor": "Equipe Prime Fazendas",
-                        "fonte": "",
-                        "data": "2026-08-11",
-                        "imagem": "assets/img/radar-02.svg",
-                        "url": ""
-              },
-              {
-                        "id": "radar-modelo-3",
-                        "exemplo": true,
-                        "categoria": "Reflorestamento",
-                        "titulo": "O que avaliar antes de destinar uma área a projeto florestal",
-                        "resumo": "Modelo de pauta: escala, vocação regional, logística e horizonte do projeto, sem projeções de retorno.",
-                        "autor": "Equipe Prime Fazendas",
-                        "fonte": "",
-                        "data": "2026-08-11",
-                        "imagem": "assets/img/radar-03.svg",
-                        "url": ""
-              }
-      ]
+  "_leia_me": "Radar Agro. Cada artigo deve ter fonte e data verificadas antes de publicar. Enquanto 'secao_em_preparacao' for true, o site avisa que os textos abaixo são modelos de apresentação e não conteúdo editorial publicado.",
+  "secao_em_preparacao": false,
+  "atualizado_em": "2026-08-14",
+  "artigos": [
+    {
+      "id": "matopiba-producao-2026",
+      "exemplo": false,
+      "categoria": "Produção e mercado",
+      "titulo": "MATOPIBA consolida liderança em produção de grãos: perspectivas para 2026/27",
+      "resumo": "A região MATOPIBA representa 26% da produção nacional de grãos em 2026. Análise das tendências de produtividade, expansão de área e oportunidades de investimento para a safra que começa.",
+      "autor": "Equipe Prime Fazendas",
+      "fonte": "Conab, MAPA",
+      "data": "2026-08-12",
+      "imagem": "assets/img/radar-04.svg",
+      "url": "/radar-agro#matopiba-producao-2026"
+    },
+    {
+      "id": "radar-modelo-1",
+      "exemplo": true,
+      "categoria": "Mercado de terras",
+      "titulo": "Como acompanhar a formação de preço da terra no MATOPIBA",
+      "resumo": "Modelo de pauta: quais indicadores observar, quais fontes consultar e como comparar áreas com aptidões distintas.",
+      "autor": "Equipe Prime Fazendas",
+      "fonte": "",
+      "data": "2026-08-11",
+      "imagem": "assets/img/radar-01.svg",
+      "url": "/radar-agro#radar-modelo-1"
+    },
+    {
+      "id": "radar-modelo-2",
+      "exemplo": true,
+      "categoria": "Infraestrutura e logística",
+      "titulo": "Corredores de escoamento e o efeito sobre o custo da operação",
+      "resumo": "Modelo de pauta: distância a terminais, condição das vias e impacto no resultado da lavoura.",
+      "autor": "Equipe Prime Fazendas",
+      "fonte": "",
+      "data": "2026-08-11",
+      "imagem": "assets/img/radar-02.svg",
+      "url": "/radar-agro#radar-modelo-2"
+    },
+    {
+      "id": "radar-modelo-3",
+      "exemplo": true,
+      "categoria": "Reflorestamento",
+      "titulo": "O que avaliar antes de destinar uma área a projeto florestal",
+      "resumo": "Modelo de pauta: escala, vocação regional, logística e horizonte do projeto, sem projeções de retorno.",
+      "autor": "Equipe Prime Fazendas",
+      "fonte": "",
+      "data": "2026-08-11",
+      "imagem": "assets/img/radar-03.svg",
+      "url": "/radar-agro#radar-modelo-3"
+    }
+  ]
 }
