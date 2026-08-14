@@ -1,6 +1,6 @@
 {
   "_leia_me": "Manchetes do mercado, atualizadas sozinhas todo dia. São remissões: título, veículo e link para a publicação original. O texto editorial da Prime fica em articles.json. Para trocar as fontes, edite data/noticias-fontes.json.",
-  "atualizado_em": "2026-08-13T12:42:20+00:00",
+  "atualizado_em": "2026-08-14T12:37:51+00:00",
   "fontes_que_falharam": [
     "Notícias Agrícolas",
     "Globo Rural",
@@ -8,27 +8,27 @@
   ],
   "noticias": [
     {
-      "titulo": "Fundo Rio Doce libera R$ 32,4 milhões para sete unidades de conservação",
-      "url": "https://www.canalrural.com.br/economia/fundo-rio-doce-libera-r-324-milhoes-para-sete-unidades-de-conservacao/",
-      "data": "2026-08-13",
+      "titulo": "Mercado do boi gordo recupera fôlego na primeira quinzena de agosto e arroba chega a R$ 355",
+      "url": "https://www.canalrural.com.br/pecuaria/mercado-do-boi-gordo-recupera-folego-na-primeira-quinzena-de-agosto-e-arroba-chega-a-r-355/",
+      "data": "2026-08-14",
       "fonte": "Canal Rural"
     },
     {
-      "titulo": "Senado aprova redução de impostos sobre combustíveis e muda tributação para produtores",
-      "url": "https://www.canalrural.com.br/politica/senado-aprova-reducao-de-impostos-sobre-combustiveis-e-muda-tributacao-para-produtores/",
-      "data": "2026-08-13",
+      "titulo": "Lei da Reciprocidade: Brasil tem a arma em mãos, mas ainda não puxou o gatilho",
+      "url": "https://www.canalrural.com.br/opiniao-noticias/lei-da-reciprocidade-brasil-tem-a-arma-em-maos-mas-ainda-nao-puxou-o-gatilho/",
+      "data": "2026-08-14",
       "fonte": "Canal Rural"
     },
     {
-      "titulo": "Decreto regulamenta programa de combustível sustentável de aviação",
-      "url": "https://www.canalrural.com.br/politica/decreto-regulamenta-programa-de-combustivel-sustentavel-de-aviacao/",
-      "data": "2026-08-13",
+      "titulo": "Inmet coloca 10 estados e o DF em alerta para baixa umidade",
+      "url": "https://www.canalrural.com.br/diversos/inmet-coloca-10-estados-e-o-df-em-alerta-para-baixa-umidade/",
+      "data": "2026-08-14",
       "fonte": "Canal Rural"
     },
     {
-      "titulo": "MDA cria grupo para estruturar programa de valorização de sistemas agrícolas tradicionais",
-      "url": "https://www.canalrural.com.br/politica/mda-cria-grupo-para-estruturar-programa-de-valorizacao-de-sistemas-agricolas-tradicionais/",
-      "data": "2026-08-13",
+      "titulo": "Tarifaço faz exportações brasileiras aos EUA despencarem e atinge produtos do agro",
+      "url": "https://www.canalrural.com.br/economia/tarifaco-faz-exportacoes-brasileiras-aos-eua-despencarem-e-atinge-produtos-do-agro/",
+      "data": "2026-08-14",
       "fonte": "Canal Rural"
     }
   ]
