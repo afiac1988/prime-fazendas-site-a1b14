@@ -2107,3 +2107,5 @@ html.scroll-travado, html.scroll-travado body { overflow: hidden; }
   .modal-artigo__caixa { margin: 0; width: 100vw; max-width: 100vw; max-height: 100vh; border-radius: 0; }
   .modal-artigo__img { border-radius: 0; max-height: 260px; }
 }
+
+/* cache-refresh:20260815e */
