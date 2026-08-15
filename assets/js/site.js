@@ -636,6 +636,62 @@
 
   if (alvoRadar) {
     var limiteRadar = parseInt(alvoRadar.getAttribute("data-radar"), 10) || 3;
+    var artigosPorId = {};
+
+    var abrirArtigoModal = function (id) {
+      var a = artigosPorId[id];
+      var modal = document.getElementById("modal-artigo");
+      if (!a || !modal) return;
+      modal.querySelector("[data-modal-img]").src = base + a.imagem;
+      modal.querySelector("[data-modal-img]").alt = a.titulo || "";
+      modal.querySelector("[data-modal-categoria]").textContent = a.categoria || "";
+      modal.querySelector("[data-modal-titulo]").textContent = a.titulo || "";
+      var metaPartes = [];
+      if (a.autor) metaPartes.push(a.autor);
+      if (a.data) metaPartes.push(a.data);
+      if (a.fonte) metaPartes.push("Fonte: " + a.fonte);
+      modal.querySelector("[data-modal-meta]").textContent = metaPartes.join(" · ");
+      modal.querySelector("[data-modal-resumo]").textContent = a.resumo || "";
+      modal.classList.add("modal-artigo--aberto");
+      document.documentElement.classList.add("scroll-travado");
+      modal.setAttribute("aria-hidden", "false");
+      try { history.replaceState(null, "", "#" + id); } catch (e) {}
+    };
+
+    var fecharArtigoModal = function () {
+      var modal = document.getElementById("modal-artigo");
+      if (!modal) return;
+      modal.classList.remove("modal-artigo--aberto");
+      document.documentElement.classList.remove("scroll-travado");
+      modal.setAttribute("aria-hidden", "true");
+    };
+
+    if (!document.getElementById("modal-artigo")) {
+      var modalEl = document.createElement("div");
+      modalEl.id = "modal-artigo";
+      modalEl.className = "modal-artigo";
+      modalEl.setAttribute("aria-hidden", "true");
+      modalEl.innerHTML =
+        '<div class="modal-artigo__fundo" data-modal-fechar></div>' +
+        '<div class="modal-artigo__caixa" role="dialog" aria-modal="true" aria-label="Artigo">' +
+        '<button type="button" class="modal-artigo__fechar" data-modal-fechar aria-label="Fechar">×</button>' +
+        '<img data-modal-img class="modal-artigo__img" src="" alt="">' +
+        '<div class="modal-artigo__corpo">' +
+        '<p class="artigo__categoria" data-modal-categoria></p>' +
+        '<h2 class="modal-artigo__titulo" data-modal-titulo></h2>' +
+        '<p class="carimbo" data-modal-meta></p>' +
+        '<p class="modal-artigo__resumo" data-modal-resumo></p>' +
+        "</div>" +
+        "</div>";
+      document.body.appendChild(modalEl);
+      modalEl.addEventListener("click", function (ev) {
+        if (ev.target && ev.target.hasAttribute("data-modal-fechar")) fecharArtigoModal();
+      });
+      document.addEventListener("keydown", function (ev) {
+        if (ev.key === "Escape") fecharArtigoModal();
+      });
+    }
+
     carregar("articles.json")
       .then(function (dados) {
         var artigos = (dados.artigos || []).slice(0, limiteRadar);
@@ -648,19 +704,21 @@
           return;
         }
 
+        artigos.forEach(function (a) {
+          artigosPorId[a.id] = a;
+        });
+
         alvoRadar.innerHTML = artigos
           .map(function (a, i) {
             var classe = i === 0 && limiteRadar > 1 ? "artigo" : "artigo artigo--lista";
-            var destino = a.url || "#";
-            var tag = a.url ? "a" : "div";
             return (
-              "<" +
-              tag +
-              ' class="' +
+              '<a class="' +
               classe +
-              '"' +
-              (a.url ? ' href="' + esc(destino) + '"' : "") +
-              ">" +
+              '" href="radar-agro.html#' +
+              esc(a.id) +
+              '" data-artigo-id="' +
+              esc(a.id) +
+              '">' +
               '<div class="artigo__figura"><img src="' +
               esc(base + a.imagem) +
               '" alt="" loading="eager" decoding="async" width="1200" height="800"></div>' +
@@ -677,12 +735,22 @@
               esc(a.resumo) +
               "</p>" +
               "</div>" +
-              "</" +
-              tag +
-              ">"
+              "</a>"
             );
           })
           .join("");
+
+        alvoRadar.addEventListener("click", function (ev) {
+          var alvo = ev.target.closest("[data-artigo-id]");
+          if (!alvo) return;
+          ev.preventDefault();
+          abrirArtigoModal(alvo.getAttribute("data-artigo-id"));
+        });
+
+        if (location.hash && artigosPorId[location.hash.slice(1)]) {
+          abrirArtigoModal(location.hash.slice(1));
+        }
+
         reobservar();
       })
       .catch(function () {
