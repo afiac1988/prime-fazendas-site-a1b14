@@ -1,6 +1,6 @@
 {
   "_leia_me": "Manchetes do mercado, atualizadas sozinhas todo dia. São remissões: título, veículo e link para a publicação original. O texto editorial da Prime fica em articles.json. Para trocar as fontes, edite data/noticias-fontes.json.",
-  "atualizado_em": "2026-08-14T12:37:51+00:00",
+  "atualizado_em": "2026-08-15T12:15:05+00:00",
   "fontes_que_falharam": [
     "Notícias Agrícolas",
     "Globo Rural",
@@ -8,27 +8,27 @@
   ],
   "noticias": [
     {
-      "titulo": "Mercado do boi gordo recupera fôlego na primeira quinzena de agosto e arroba chega a R$ 355",
-      "url": "https://www.canalrural.com.br/pecuaria/mercado-do-boi-gordo-recupera-folego-na-primeira-quinzena-de-agosto-e-arroba-chega-a-r-355/",
-      "data": "2026-08-14",
+      "titulo": "Mercado passa a embutir prêmio eleitoral no real com avanço da campanha",
+      "url": "https://www.canalrural.com.br/economia/mercado-passa-a-embutir-premio-eleitoral-no-real-com-avanco-da-campanha/",
+      "data": "2026-08-15",
       "fonte": "Canal Rural"
     },
     {
-      "titulo": "Lei da Reciprocidade: Brasil tem a arma em mãos, mas ainda não puxou o gatilho",
-      "url": "https://www.canalrural.com.br/opiniao-noticias/lei-da-reciprocidade-brasil-tem-a-arma-em-maos-mas-ainda-nao-puxou-o-gatilho/",
-      "data": "2026-08-14",
+      "titulo": "ITR 2026 começa com mudanças; erro no cadastro pode travar declaração de imóvel rural",
+      "url": "https://www.canalrural.com.br/agricultura/itr-2026-comeca-com-mudancas-erro-no-cadastro-pode-travar-declaracao-de-imovel-rural/",
+      "data": "2026-08-15",
       "fonte": "Canal Rural"
     },
     {
-      "titulo": "Inmet coloca 10 estados e o DF em alerta para baixa umidade",
-      "url": "https://www.canalrural.com.br/diversos/inmet-coloca-10-estados-e-o-df-em-alerta-para-baixa-umidade/",
-      "data": "2026-08-14",
+      "titulo": "Após superar luto, produtora amplia granja e prepara filho para sucessão",
+      "url": "https://www.canalrural.com.br/aves-e-suinos/apos-superar-luto-produtora-amplia-granja-e-prepara-filho-para-sucessao/",
+      "data": "2026-08-15",
       "fonte": "Canal Rural"
     },
     {
-      "titulo": "Tarifaço faz exportações brasileiras aos EUA despencarem e atinge produtos do agro",
-      "url": "https://www.canalrural.com.br/economia/tarifaco-faz-exportacoes-brasileiras-aos-eua-despencarem-e-atinge-produtos-do-agro/",
-      "data": "2026-08-14",
+      "titulo": "Berkshire zera posição na Constellation Brands no segundo trimestre",
+      "url": "https://www.canalrural.com.br/economia/berkshire-zera-posicao-na-constellation-brands-no-segundo-trimestre/",
+      "data": "2026-08-15",
       "fonte": "Canal Rural"
     }
   ]
