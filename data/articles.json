@@ -12,7 +12,7 @@
       "autor": "Equipe Prime Fazendas",
       "fonte": "Conab, MAPA",
       "data": "2026-08-12",
-      "imagem": "assets/img/radar-04.svg",
+      "imagem": "assets/img/radar-04.png",
       "url": "/radar-agro#matopiba-producao-2026"
     },
     {
@@ -24,7 +24,7 @@
       "autor": "Prime Fazendas",
       "fonte": "Banco Central, BNDES, Associações de Agribusiness",
       "data": "2026-08-12",
-      "imagem": "assets/img/radar-05.svg",
+      "imagem": "assets/img/radar-05.png",
       "url": "/radar-agro#investimento-agro-infraestrutura"
     },
     {
@@ -36,7 +36,7 @@
       "autor": "Prime Fazendas",
       "fonte": "Embrapa, Apex Brasil, Startups Agritech",
       "data": "2026-08-11",
-      "imagem": "assets/img/radar-06.svg",
+      "imagem": "assets/img/radar-06.png",
       "url": "/radar-agro#tecnologia-agro-precisao"
     },
     {
