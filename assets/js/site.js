@@ -652,6 +652,17 @@
       if (a.fonte) metaPartes.push("Fonte: " + a.fonte);
       modal.querySelector("[data-modal-meta]").textContent = metaPartes.join(" · ");
       modal.querySelector("[data-modal-resumo]").textContent = a.resumo || "";
+      var caixaTexto = modal.querySelector("[data-modal-texto]");
+      caixaTexto.innerHTML = "";
+      (a.corpo || []).forEach(function (paragrafo) {
+        var ehTitulo = paragrafo.indexOf("## ") === 0;
+        var el = document.createElement(ehTitulo ? "h3" : "p");
+        el.className = ehTitulo ? "modal-artigo__subtitulo" : "modal-artigo__paragrafo";
+        el.textContent = ehTitulo ? paragrafo.slice(3) : paragrafo;
+        caixaTexto.appendChild(el);
+      });
+      var caixaTags = modal.querySelector("[data-modal-tags]");
+      caixaTags.textContent = (a.palavras_chave || []).length ? a.palavras_chave.join(" · ") : "";
       modal.classList.add("modal-artigo--aberto");
       document.documentElement.classList.add("scroll-travado");
       modal.setAttribute("aria-hidden", "false");
@@ -681,6 +692,8 @@
         '<h2 class="modal-artigo__titulo" data-modal-titulo></h2>' +
         '<p class="carimbo" data-modal-meta></p>' +
         '<p class="modal-artigo__resumo" data-modal-resumo></p>' +
+        '<div class="modal-artigo__texto" data-modal-texto></div>' +
+        '<p class="modal-artigo__tags" data-modal-tags></p>' +
         "</div>" +
         "</div>";
       document.body.appendChild(modalEl);
@@ -707,6 +720,42 @@
         artigos.forEach(function (a) {
           artigosPorId[a.id] = a;
         });
+
+        var reaisParaSEO = artigos.filter(function (a) {
+          return !a.exemplo;
+        });
+        if (reaisParaSEO.length && !document.getElementById("ld-radar-agro")) {
+          var itensLD = reaisParaSEO.map(function (a, i) {
+            return {
+              "@type": "ListItem",
+              position: i + 1,
+              item: {
+                "@type": "NewsArticle",
+                headline: a.titulo,
+                description: a.resumo,
+                image: [new URL(base + a.imagem, location.href).href],
+                datePublished: a.data,
+                author: { "@type": "Organization", name: a.autor || "Prime Fazendas" },
+                publisher: {
+                  "@type": "Organization",
+                  name: "Prime Fazendas",
+                  logo: { "@type": "ImageObject", url: new URL(base + "assets/img/brasao-320.webp", location.href).href }
+                },
+                mainEntityOfPage: new URL(base + "radar-agro.html#" + a.id, location.href).href,
+                keywords: (a.palavras_chave || []).join(", ")
+              }
+            };
+          });
+          var ld = document.createElement("script");
+          ld.type = "application/ld+json";
+          ld.id = "ld-radar-agro";
+          ld.textContent = JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            itemListElement: itensLD
+          });
+          document.head.appendChild(ld);
+        }
 
         alvoRadar.innerHTML = artigos
           .map(function (a, i) {
