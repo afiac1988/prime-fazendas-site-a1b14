@@ -1,8 +1,31 @@
 {
   "_leia_me": "Radar Agro. Cada artigo deve ter fonte e data verificadas antes de publicar. Enquanto 'secao_em_preparacao' for true, o site avisa que os textos abaixo são modelos de apresentação e não conteúdo editorial publicado.",
   "secao_em_preparacao": false,
-  "atualizado_em": "2026-08-14",
+  "atualizado_em": "2026-08-15",
   "artigos": [
+    {
+      "id": "safra-recorde-2025-26-matopiba",
+      "exemplo": false,
+      "categoria": "Expansão agrícola",
+      "titulo": "Brasil colhe safra recorde de grãos em 2025/26, e o MATOPIBA amplia protagonismo na expansão agrícola",
+      "resumo": "Conab projeta 360,8 milhões de toneladas de grãos na safra 2025/26, alta de 2,4% sobre o ciclo anterior. Soja, milho e algodão batem recordes, enquanto o MATOPIBA consolida sua trajetória de crescimento e recebe bilhões em infraestrutura logística.",
+      "autor": "Equipe Prime Fazendas",
+      "fonte": "Conab, Agência Brasil, Abifer, Codeba",
+      "data": "2026-08-15",
+      "imagem": "assets/img/radar-04.jpg",
+      "url": "/radar-agro#safra-recorde-2025-26-matopiba",
+      "palavras_chave": ["safra recorde de grãos", "MATOPIBA", "expansão agrícola", "soja", "milho", "infraestrutura logística", "agronegócio Brasil", "Conab 2025/26"],
+      "corpo": [
+        "A safra brasileira de grãos 2025/26 deve fechar em 360,8 milhões de toneladas, segundo a projeção mais recente da Companhia Nacional de Abastecimento (Conab), divulgada em agosto de 2026. O volume representa um novo recorde histórico, com alta de 2,4% sobre o ciclo 2024/25 — um incremento de 8,5 milhões de toneladas. A área cultivada também avançou, somando 83,5 milhões de hectares (+2,1%), com produtividade média de 4.322 quilos por hectare.",
+        "A soja segue como a espinha dorsal da produção nacional, com 180,5 milhões de toneladas colhidas — alta estimada em 5,3% sobre a safra anterior. O milho vem na sequência, com 143 milhões de toneladas, e o algodão confirma recorde histórico: 5,8 milhões de toneladas em caroço, equivalentes a 4,1 milhões de toneladas de pluma.",
+        "## O MATOPIBA em ritmo acelerado",
+        "Enquanto o país celebra o novo recorde, a fronteira agrícola formada por Maranhão, Tocantins, Piauí e Bahia consolida sua posição como uma das regiões de maior crescimento do agronegócio brasileiro. O MATOPIBA já responde por cerca de 19% de toda a soja produzida no país. Em uma década, a produção de grãos da região saltou 93% — de 18 milhões de toneladas em 2013/14 para 35 milhões de toneladas em 2022/23 — e projeções indicam um novo salto de 37,1% até 2032/33, quando a produção deve alcançar 48 milhões de toneladas, com a área plantada crescendo 17%, para 11 milhões de hectares.",
+        "Municípios baianos como São Desidério e Formosa do Rio Preto já figuram entre os maiores produtores de soja do país, à frente de polos tradicionais de Mato Grosso e Goiás — prova de que a fronteira agrícola do MATOPIBA amadureceu e hoje compete de igual para igual com as regiões mais consolidadas do agronegócio nacional.",
+        "## Infraestrutura acompanha o crescimento",
+        "O avanço da produção vem acompanhado de investimentos robustos em logística, essenciais para escoar a safra com competitividade. O Porto de Itaqui, no Maranhão, recebe R$ 1,35 bilhão em modernização privada e já responde por 94,3% das exportações de milho e 26,3% das exportações de soja escoadas pela região. Na Bahia, a Codeba investe R$ 1,64 bilhão em terminais portuários em Salvador, Ilhéus e Aratu-Candeias. Some-se a isso R$ 3,11 bilhões em obras rodoviárias e mais de R$ 260 milhões em pontes estratégicas sobre os rios Araguaia e Parnaíba — parte de um pacote que também inclui a modernização de cinco aeródromos regionais.",
+        "Para quem acompanha o mercado de terras, o cenário reforça uma tendência observada nos últimos anos: a valorização das propriedades rurais no MATOPIBA tende a acompanhar tanto o desempenho produtivo quanto o avanço da infraestrutura logística da região. Com safra recorde, produtividade em alta e bilhões sendo investidos em portos, rodovias e aeroportos, a fronteira agrícola se consolida como uma das apostas mais consistentes do agronegócio brasileiro para a próxima década."
+      ]
+    },
     {
       "id": "matopiba-producao-2026",
       "exemplo": false,
