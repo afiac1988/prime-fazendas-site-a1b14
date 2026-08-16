@@ -1,6 +1,6 @@
 {
   "_leia_me": "Manchetes do mercado, atualizadas sozinhas todo dia. São remissões: título, veículo e link para a publicação original. O texto editorial da Prime fica em articles.json. Para trocar as fontes, edite data/noticias-fontes.json.",
-  "atualizado_em": "2026-08-15T12:15:05+00:00",
+  "atualizado_em": "2026-08-16T12:16:11+00:00",
   "fontes_que_falharam": [
     "Notícias Agrícolas",
     "Globo Rural",
@@ -8,26 +8,26 @@
   ],
   "noticias": [
     {
-      "titulo": "Mercado passa a embutir prêmio eleitoral no real com avanço da campanha",
-      "url": "https://www.canalrural.com.br/economia/mercado-passa-a-embutir-premio-eleitoral-no-real-com-avanco-da-campanha/",
+      "titulo": "Soja: com dados de USDA e Conab nas mãos, mercado aguarda Crop Tour para definir expectativas",
+      "url": "https://www.canalrural.com.br/agricultura/soja-com-dados-de-usda-e-conab-nas-maos-mercado-aguarda-crop-tour-para-definir-expectativas/",
       "data": "2026-08-15",
       "fonte": "Canal Rural"
     },
     {
-      "titulo": "ITR 2026 começa com mudanças; erro no cadastro pode travar declaração de imóvel rural",
-      "url": "https://www.canalrural.com.br/agricultura/itr-2026-comeca-com-mudancas-erro-no-cadastro-pode-travar-declaracao-de-imovel-rural/",
+      "titulo": "Deriva de herbicidas causa prejuízos de R$ 210 milhões, mostra pesquisa",
+      "url": "https://www.canalrural.com.br/agricultura/deriva-de-herbicidas-causa-prejuizos-de-r-210-milhoes-mostra-pesquisa/",
       "data": "2026-08-15",
       "fonte": "Canal Rural"
     },
     {
-      "titulo": "Após superar luto, produtora amplia granja e prepara filho para sucessão",
-      "url": "https://www.canalrural.com.br/aves-e-suinos/apos-superar-luto-produtora-amplia-granja-e-prepara-filho-para-sucessao/",
+      "titulo": "Marcação a fogo gera 18% de erro na identificação de bovinos, aponta estudo",
+      "url": "https://www.canalrural.com.br/pecuaria/marcacao-a-fogo-gera-18-de-erro-na-identificacao-de-bovinos-aponta-estudo/",
       "data": "2026-08-15",
       "fonte": "Canal Rural"
     },
     {
-      "titulo": "Berkshire zera posição na Constellation Brands no segundo trimestre",
-      "url": "https://www.canalrural.com.br/economia/berkshire-zera-posicao-na-constellation-brands-no-segundo-trimestre/",
+      "titulo": "Unesp mapeia genoma de peixe brasileiro e abre caminho para avanço da aquicultura",
+      "url": "https://www.canalrural.com.br/diversos/unesp-mapeia-genoma-de-peixe-brasileiro-e-abre-caminho-para-avanco-da-aquicultura/",
       "data": "2026-08-15",
       "fonte": "Canal Rural"
     }
