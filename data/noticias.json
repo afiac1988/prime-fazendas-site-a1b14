@@ -1,6 +1,6 @@
 {
   "_leia_me": "Manchetes do mercado, atualizadas sozinhas todo dia. São remissões: título, veículo e link para a publicação original. O texto editorial da Prime fica em articles.json. Para trocar as fontes, edite data/noticias-fontes.json.",
-  "atualizado_em": "2026-08-16T12:16:11+00:00",
+  "atualizado_em": "2026-08-17T12:19:28+00:00",
   "fontes_que_falharam": [
     "Notícias Agrícolas",
     "Globo Rural",
@@ -8,27 +8,27 @@
   ],
   "noticias": [
     {
-      "titulo": "Soja: com dados de USDA e Conab nas mãos, mercado aguarda Crop Tour para definir expectativas",
-      "url": "https://www.canalrural.com.br/agricultura/soja-com-dados-de-usda-e-conab-nas-maos-mercado-aguarda-crop-tour-para-definir-expectativas/",
-      "data": "2026-08-15",
+      "titulo": "Mediana do Focus para o IPCA de 2026 fica em 5,02%",
+      "url": "https://www.canalrural.com.br/economia/mediana-do-focus-para-o-ipca-de-2026-fica-em-502/",
+      "data": "2026-08-17",
       "fonte": "Canal Rural"
     },
     {
-      "titulo": "Deriva de herbicidas causa prejuízos de R$ 210 milhões, mostra pesquisa",
-      "url": "https://www.canalrural.com.br/agricultura/deriva-de-herbicidas-causa-prejuizos-de-r-210-milhoes-mostra-pesquisa/",
-      "data": "2026-08-15",
+      "titulo": "IBGE divulga agenda da semana com atividade ligada ao Censo Agro",
+      "url": "https://www.canalrural.com.br/diversos/ibge-divulga-agenda-da-semana-com-atividade-ligada-ao-censo-agro/",
+      "data": "2026-08-17",
       "fonte": "Canal Rural"
     },
     {
-      "titulo": "Marcação a fogo gera 18% de erro na identificação de bovinos, aponta estudo",
-      "url": "https://www.canalrural.com.br/pecuaria/marcacao-a-fogo-gera-18-de-erro-na-identificacao-de-bovinos-aponta-estudo/",
-      "data": "2026-08-15",
+      "titulo": "El Niño preocupa mercado e ajuda a sustentar alta do preço do milho",
+      "url": "https://www.canalrural.com.br/agricultura/milho/el-nino-preocupa-mercado-e-ajuda-a-sustentar-alta-do-preco-do-milho/",
+      "data": "2026-08-17",
       "fonte": "Canal Rural"
     },
     {
-      "titulo": "Unesp mapeia genoma de peixe brasileiro e abre caminho para avanço da aquicultura",
-      "url": "https://www.canalrural.com.br/diversos/unesp-mapeia-genoma-de-peixe-brasileiro-e-abre-caminho-para-avanco-da-aquicultura/",
-      "data": "2026-08-15",
+      "titulo": "IGP-10 cai 0,51% em agosto, informa FGV",
+      "url": "https://www.canalrural.com.br/economia/igp-10-cai-051-em-agosto-informa-fgv/",
+      "data": "2026-08-17",
       "fonte": "Canal Rural"
     }
   ]
