@@ -1,0 +1,8 @@
+{
+  "buildCommand": "echo 'Build completed - site folder is ready'",
+  "outputDirectory": "site",
+  "github": {
+    "enabled": true,
+    "silent": false
+  }
+}
