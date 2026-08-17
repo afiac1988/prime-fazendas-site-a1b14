@@ -631,6 +631,13 @@ def pagina(cfg: dict, *, titulo: str, descricao: str, url: str, corpo: str,
 </main>
 {rodape(cfg)}
 {botao_zap}
+<div class="foto-modal" hidden aria-hidden="true">
+  <div class="foto-modal__janela" role="dialog" aria-modal="true" aria-label="Visualizador de imagem">
+    <button type="button" class="foto-modal__fechar" aria-label="Fechar visualizador">×</button>
+    <img class="foto-modal__img" alt="">
+    <p class="foto-modal__legenda"></p>
+  </div>
+</div>
 <script src="/assets/site.js" defer></script>
 </body>
 </html>
@@ -813,7 +820,10 @@ def card_imovel(im: dict) -> str:
         selos.append('<span class="selo selo--aviso">Exemplo</span>')
 
     if im["fotos_url"]:
-        capa = (f'<a class="imovel__capa-link" href="{e(im["fotos_url"][0])}" target="_blank" rel="noopener noreferrer" title="Abrir foto em nova aba">'
+        capa = (f'<a class="imovel__capa-link js-foto-modal" href="{e(im["fotos_url"][0])}" '
+                f'data-foto-modal-src="{e(im["fotos_url"][0])}" '
+                f'data-foto-modal-alt="{e(im["titulo"])}" '
+                f'title="Abrir foto no visualizador">'
                 f'<img src="{e(im["fotos_url"][0])}" alt="{e(im["titulo"])}" loading="lazy">'
                 f'</a>')
     else:
@@ -1232,8 +1242,10 @@ def gerar_ficha_imovel(cfg, im) -> str:
     # galeria
     if im["fotos_url"]:
         fotos = "".join(
-            f'<a class="galeria__link" href="{e(u)}" target="_blank" rel="noopener noreferrer" '
-            f'title="Abrir foto {n + 1} em nova aba">'
+            f'<a class="galeria__link js-foto-modal" href="{e(u)}" '
+            f'data-foto-modal-src="{e(u)}" '
+            f'data-foto-modal-alt="{e(im["titulo"])} â€” foto {n + 1}" '
+            f'title="Abrir foto {n + 1} no visualizador">'
             f'<img src="{e(u)}" alt="{e(im["titulo"])} â€” foto {n + 1}" loading="lazy">'
             f'</a>'
             for n, u in enumerate(im["fotos_url"])
