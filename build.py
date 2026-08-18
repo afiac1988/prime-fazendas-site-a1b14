@@ -1238,6 +1238,7 @@ def gerar_ficha_imovel(cfg, im) -> str:
              + f'<p class="olho">{e(olho)}</p><h1>{e(im["titulo"])}</h1>'
              + (f'<p class="chamada chamada--larga">{e(im["subtitulo"])}</p>' if im.get("subtitulo") else "")
              + "</div></section>"]
+    blocos = []
 
     # galeria
     if im["fotos_url"]:
@@ -1251,6 +1252,7 @@ def gerar_ficha_imovel(cfg, im) -> str:
             for n, u in enumerate(im["fotos_url"])
         )
         galeria = f'<div class="galeria">{fotos}</div>'
+        blocos.append(f'<div class="bloco-ficha bloco-ficha--galeria">{galeria}</div>')
     if im.get("descricao"):
         blocos.append(f'<div class="bloco-ficha"><h3>A propriedade</h3>'
                       f'<div class="prosa">{paragrafos(im["descricao"])}</div></div>')
@@ -1465,7 +1467,8 @@ def gerar_post(cfg, p, outros) -> str:
     }, ensure_ascii=False)
 
     return pagina(cfg, titulo=p["titulo"], descricao=p.get("resumo", ""), url=p["url"],
-                  corpo="\n".join(corpo), og_tipo="article", json_ld=ld)
+                  corpo="\n".join(corpo), og_tipo="article", json_ld=ld,
+                  rascunho=bool(p.get("_rascunho")))
 
 
 def gerar_contato(cfg, pag) -> str:
