@@ -1,5 +1,8 @@
 # Base oficial de imóveis e mídia
 
+> Este documento pertence ao checkout espelho `prime-fazendas-a1b14-sync`.
+> O caminho oficial único de edição e publicação é `prime-fazendas-website`.
+
 Este projeto precisa de um único lugar de entrada para os imóveis.
 O site publica a partir do repositório local, mas a organização pode nascer no Drive da Prime.
 

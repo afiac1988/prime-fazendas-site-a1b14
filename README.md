@@ -7,6 +7,15 @@ O fluxo canônico hoje é:
 
 **No ar em:** https://primefazendas.com
 
+## Status deste checkout
+
+Este repositório funciona como espelho/sincronização e referência auxiliar.
+Não use este checkout como fonte principal de publicação.
+
+O caminho oficial único para editar e publicar é:
+
+`C:\PA-AI CORE\ANDAR_07 — Prime Fazendas\prime-fazendas-website`
+
 > Mapa rápido e atualizado do fluxo: [MAPA_RAPIDO_VERCEL.md](MAPA_RAPIDO_VERCEL.md)
 
 ---

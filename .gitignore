@@ -26,3 +26,8 @@ __pycache__/
 *.bak
 
 manutencao.local.json
+
+# Pastas de limpeza/backup locais — nunca versionar
+/_to_delete/
+_site_leak*/
+_site_prev*/

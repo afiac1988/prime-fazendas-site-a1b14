@@ -1,5 +1,8 @@
 # Rota canônica do site Prime Fazendas
 
+> Este documento pertence ao checkout espelho `prime-fazendas-a1b14-sync`.
+> O caminho oficial único de edição e publicação é `prime-fazendas-website`.
+
 Este documento é a memória curta e confiável do site.  
 Se alguém chegar novo ao projeto, é por aqui que começa.
 
